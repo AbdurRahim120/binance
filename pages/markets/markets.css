@@ -1,0 +1,162 @@
+.color-red {
+    color: #f6465d;
+  }
+  .market-header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+  }
+  .market-header-title {
+    display: flex;
+    gap: 30px;
+    padding: 24px 0;
+  }
+  .market-header-title h3 {
+    color: #848e9c;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .market-header-info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    align-items: center;
+  }
+  .market-header-card {
+    box-sizing: border-box;
+    border: 1px solid #2b3139;
+    padding: 16px 8px;
+    border-radius: 20px;
+  }
+  .market-header-card-icon{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .market-header-card-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+  }
+  .option-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-y: hidden;
+  }
+  .option-container i{
+    margin-left: 10px;
+  }
+  .options{
+    display: inline-flex;
+    gap: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #5E6673;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    flex: none;
+  }
+  ::-webkit-scrollbar{
+    height: 0px;
+  }
+  .options p{
+    display: inline-block;
+  }
+  .options p:hover{
+    color: #fff;
+    
+  }
+
+  .markets-coins-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .markets-coins:hover{
+    background-color: #1e2026;
+  }
+  .markets-coins {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+  }
+  .markets-coins-name h4{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .markets-coins-right{
+    display: flex;
+  }
+  .text-12{
+    font-size: 12px;
+    color:#5e6673;
+  }
+
+  .text-right {
+    width: 150px;
+    text-align: right;
+  }
+
+
+
+
+
+
+  @media screen and (max-width: 1200px) {
+  }
+  @media screen and (max-width: 1023px) {
+    .market-header-card-amount{
+        display: none;
+    }
+
+    .option-container{
+      margin: 0 25px;
+    }
+
+    .markets-coins-price{
+        display: none;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    
+    .market-header-container{
+        display: none;
+    }
+    .markets-coins-price{
+        display: block;
+    }
+    .markets-coins-actions{
+        display: none;
+    }
+
+    
+    .markets-coins-name{
+        width: 30%;
+        
+    }
+    .markets-coins-name-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .text-right{
+        width: 102px;
+        text-align: right;
+    }
+
+    .markets-coins-right{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 70%;
+        justify-items: end;
+    }
+  }

@@ -1,0 +1,349 @@
+.icon-container {
+  max-width: 1044px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  height: 60px;
+  align-items: center;
+  color: #eaecef;
+  margin-top: 64px;
+  padding: 0 24px;
+}
+.icon-info i {
+  margin-right: 8px;
+}
+.crypto-modal {
+  display: none;
+}
+.modal {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  top: 64px;
+  left: 0;
+  width: 100%;
+  background-color: rgb(24, 26, 32);
+  height: 100%;
+}
+.open-modal {
+  background-color: rgb(24, 26, 32);
+  color: #eaecef;
+  font-size: 20px;
+  border: none;
+}
+
+.closeModal {
+  float: right;
+  cursor: pointer;
+  font-size: 25px;
+}
+.modal-info {
+  padding: 20px;
+}
+.modal-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.crypto-banner-0 {
+  display: flex;
+  max-width: 1044px;
+  margin: 0 auto;
+  background-color: rgb(24, 26, 32);
+  color: #eaecef;
+}
+
+.crypto-banner-left {
+  width: 50%;
+  margin-top: 30px;
+}
+.crypto-banner-left p {
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+.crypto-banner-left li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.crypto-banner-left li i {
+  margin-right: 20px;
+}
+.crypto-banner-right {
+  width: 50%;
+  border: 2px solid #2b3139;
+  border-radius: 24px;
+  height: 548px;
+}
+.buy-sell {
+  display: flex;
+  text-align: center;
+}
+.buy-sell h4 {
+  width: 50%;
+  border-right: 1px solid #2b3139;
+  border-bottom: 1px solid #2b3139;
+  margin: 0;
+  padding: 20px;
+  font-weight: 700;
+}
+.buy-sell-card {
+  padding: 28px;
+}
+.buy-sell-card-1 {
+  border: 1px solid #2b3139;
+  padding: 16px;
+  border-radius: 24px;
+  margin-bottom: 20px;
+}
+.buy-sell-card-1 h3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.buy-sell-card-1 i {
+  color: #f0b90b;
+}
+.buy-sell-btn {
+  text-align: center;
+  margin-top: auto;
+}
+.crypto-banner-right button {
+  width: 90%;
+  margin-top: 150px;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #f0b90b;
+}
+.crypto-br {
+  max-width: 1200px;
+
+  width: 96%;
+  margin: 64px auto;
+  border: 1px solid #2b3139;
+}
+.crypto-btc-usd-market {
+  display: flex;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: auto;
+  justify-content: space-between;
+}
+.btc-usd-market-left {
+  width: 45%;
+}
+.btc-usd-market-left-1 h3 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  font-weight: 700;
+}
+.btc-usd-market-left-2 h3 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: 700;
+}
+.crypto-btc-usd-market img {
+  width: 100%;
+}
+.btc-usd-market-right {
+  width: 45%;
+}
+.btc-market-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.btc-market-section h4 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.btc-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+.btc-market {
+  margin-top: 40px;
+}
+.btc-market h1 {
+  margin-bottom: 20px;
+}
+.btc-usd-convert {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 25px;
+  justify-content: space-between;
+}
+.btc-to-usd {
+  width: 45%;
+}
+.btc-to-usd-option {
+  border: 1px solid #2b3139;
+  padding: 32px 48px;
+  border-radius: 16px;
+  font-size: 16px;
+}
+.btc-to-usd-option-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.btc-to-usd-option h4 {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.btc-to-usd-btn {
+  background-color: #2b3139;
+  color: #eaecef;
+  border-radius: 6px;
+  padding: 3px 8px;
+}
+.btc-to-usd hr {
+  border: 1px solid rgb(46, 44, 44);
+}
+.popular-coin-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 25px;
+}
+.popular-coin-container h1 {
+  margin: 25px 0px;
+  font-size: 32px;
+  font-weight: 500;
+}
+.popular-coin-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  margin-top: 48px;
+}
+.coin-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 28px 36px;
+  border: 1px solid rgb(71, 77, 87);
+}
+.coin-card-info h4 {
+  margin-bottom: 10px;
+}
+.coin-card-icon {
+  display: flex;
+}
+.coin-card-extra {
+  display: none;
+}
+.popular-coin-end-para {
+  font-size: 12px;
+  color: #5e6673;
+  margin-top: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+  .icon-container {
+    padding: 0 16px;
+  }
+  .crypto-banner-0 {
+    padding: 0 20px;
+    margin: 20px 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .icon-container {
+    padding: 0 24px;
+  }
+  .crypto-banner-left {
+    display: none;
+  }
+  .crypto-banner-0 {
+    display: grid;
+  }
+  .crypto-banner-right {
+    width: 458px;
+    margin: auto;
+  }
+  .crypto-btc-usd-market {
+    flex-direction: column;
+    padding: 0 30px;
+  }
+  .btc-usd-market-left,
+  .btc-usd-market-right {
+    width: 100%;
+  }
+  .btc-usd-convert {
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  }
+  .btc-to-usd {
+    margin: auto;
+    width: 100%;
+  }
+  .popular-coin-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .coin-card-extra {
+    display: flex;
+  }
+}
+@media screen and (max-width: 767px) {
+  .icon-container {
+    display: none;
+  }
+  .crypto-modal {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+  }
+  .crypto-banner-right {
+    height: fit-content;
+    width: 100%;
+  }
+  .crypto-btc-usd-market {
+    padding: 0 20px;
+    margin: 20px 0px;
+  }
+  .crypto-banner-right button {
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  .btc-to-usd-option {
+    padding: 20px;
+  }
+  .popular-coin-container {
+    padding: 0 15px;
+  }
+  .popular-coin-container h1 {
+    text-align: center;
+    font-size: 24px;
+  }
+  .popular-coin-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .coin-card {
+    padding: 16px;
+  }
+  .popular-coin-end-para,
+  .popular-coin-first-info {
+    text-align: center;
+  }
+}
