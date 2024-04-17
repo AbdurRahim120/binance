@@ -1,0 +1,119 @@
+#login-container {
+    background-color: rgb(24, 26, 32);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    height: 100vh;
+  }
+  #login-container h1{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  #login-form {
+    padding: 20px;
+    width: 384px;
+  }
+
+  #login-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  #login-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    background-color: rgb(24, 26, 32);
+    border: 1px solid gray;
+    border-radius: 6px;
+  }
+
+  #login-form button {
+    background-color: #fcd535;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 6px;
+  }
+  #login-form p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .hr-or{
+    display: flex;
+    margin: 15px 0px;
+    align-items: center;
+    gap: 10px;
+  }
+  .hr-or hr{
+    width: 44%;
+    height: 1px;
+  }
+  #countinue-with{
+    margin: 10px 0;
+    background-color: rgb(71, 77, 87);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 95%;
+    border-radius: 6px;
+    text-align: center;
+  }
+  .right-side-img{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 384px;
+  }
+  .register-right-side-img{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 384px;
+  }
+  .login-qrcode{
+    display: flex;
+    align-items: center;
+  }
+  .login-qrcode .qr-img-1{
+    width: 160px;
+    height: 160px;
+    margin-right: 40px;
+  }
+  .login-qrcode .qr-img-2{
+    height: 160px;
+
+  }
+  .login-qrcode .qr-img-3{
+    width: 350px;
+  }
+
+  @media screen and (max-width: 1200px) {
+  }
+  @media screen and (max-width: 1023px) {
+    #login-container{
+      flex-direction: column-reverse;
+      gap: 20px;
+      height: auto;
+      margin-top: 64px;
+    }
+    .right-side-img{
+      display: none;
+    }
+  }
+  @media screen and (max-width: 767px) {
+  }

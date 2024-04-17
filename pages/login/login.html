@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="../../src/index.css" />
+    <link rel="stylesheet" href="../../src/main.css" />
+    <link rel="stylesheet" href="../../src/rsponsive.css" />
+    <link rel="stylesheet" href="./login.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/Binance-Logo2.wine.svg"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/770e654504.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="login-container">
+      <div id="login-form">
+        <h1>Log In</h1>
+        <label>Email/Phone Number</label>
+        <input type="text" id="username" name="username" required />
+
+        <label>Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <a href="/index.html">
+
+            <button type="submit">Login</button>
+        </a>
+        <div class="hr-or">
+          <hr />
+          or
+          <hr />
+        </div>
+        <div type="submit" id="countinue-with">Continue with Google</div>
+        <div type="submit" id="countinue-with">Continue with Apple</div>
+        <a href="../register/register.html">
+          <p class="color-1">Create a Binance Account</p>
+        </a>
+      </div>
+      <div class="right-side-img">
+        <p>Log in with QR code</p>
+        <div class="login-qrcode">
+          <img class="qr-img-1" src="/images/download.png" alt="" />
+          <img class="qr-img-2" src="/images/scan-device-dark.svg" alt="" />
+        </div>
+        <p>
+          Scan this code with the
+          <span class="color-1">Binance mobile app</span> to log in instantly.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

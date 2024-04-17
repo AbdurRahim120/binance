@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Markets</title>
     <link rel="stylesheet" href="/src/index.css" />
     <link rel="stylesheet" href="/src/main.css" />
@@ -17,1104 +17,1186 @@
       src="https://kit.fontawesome.com/770e654504.js"
       crossorigin="anonymous"
     ></script>
-</head>
-<body>
+  </head>
+  <body>
     <!-- market header start here  -->
     <nav class="main-nav">
-        <div class="left-nav">
-          <a href="/index.html">
-            <img class="logo" src="../../images/Binance-preview.png" alt="" />
+      <div class="left-nav">
+        <a href="/index.html">
+          <img class="logo" src="../../images/Binance-preview.png" alt="" />
+        </a>
+
+        <ul class="menu">
+          <a>
+            <li>
+              <a href="/pages/buyCrypto/crypto.html">Buy Crypto</a>
+            </li>
           </a>
-  
-          <ul class="menu">
-            <a >
+          <a href="./markets.html">
+            <li>
+              <a>Markets</a>
+            </li>
+          </a>
+          <a href="">
+            <li class="dropdown">
+              <a href="#"> Trade <i class="fa-solid fa-angle-down"></i> </a>
+              <div class="dropdown-content">
+                <ul>
+                  <span class="text-small">Basic</span>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i class="fa-solid fa-laptop-file color-1"></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>Spot</h4>
+                      <p class="text-small">
+                        Buy and sell on the Spot market with advanced tools
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i class="fa-solid fa-diagram-predecessor color-1"></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>Margin</h4>
+                      <p class="text-small">
+                        Increase your profits with leverage
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i class="fa-solid fa-diagram-project color-1"></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>P2P</h4>
+                      <p class="text-small">
+                        Buy & sell cryptocurrencies using bank transfer and 800+
+                        options
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i class="fa-solid fa-sun-plant-wilt color-1"></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>Convert & Block Trade</h4>
+                      <p class="text-small">
+                        The easiest way to trade at all sizes
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <span class="text-small">Advanced</span>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i class="fa-solid fa-kitchen-set color-1"></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>Trading Bots</h4>
+                      <p class="text-small">
+                        Trade smarter with our various automated strategies -
+                        easy, fast and reliable
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i class="fa-solid fa-arrow-up-right-dots color-1"></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>Copy Trading</h4>
+                      <p class="text-small">Follow the most popular traders</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i
+                        class="fa-solid fa-house-flood-water-circle-arrow-right color-1"
+                      ></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>APIs</h4>
+                      <p class="text-small">
+                        Unlimited opportunities with one key
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </a>
+          <a href="">
+            <li class="dropdown">
+              <a href="#"> Fetures <i class="fa-solid fa-angle-down"></i> </a>
+              <div class="dropdown-content">
+                <ul>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i class="fa-solid fa-road-bridge color-1"></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>USDⓈ-M Futures</h4>
+                      <p class="text-small">Contracts settled in USDT</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i class="fa-solid fa-arrow-up-right-dots color-1"></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>COIN-M Futures</h4>
+                      <p class="text-small">
+                        Contracts settled in cryptocurrency
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i class="fa-solid fa-road-bridge color-1"></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>Options</h4>
+                      <p class="text-small">
+                        USDT Options with limited downside and affordable entry
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </a>
+          <a href="">
+            <li>
+              <a href="/pages/earn/earn.html">Earn</a>
+            </li>
+          </a>
+          <a href="">
+            <li class="dropdown">
+              <a href="#"> Square <i class="fa-solid fa-angle-down"></i> </a>
+              <div class="dropdown-content">
+                <ul>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i class="fa-solid fa-kitchen-set color-1"></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>Square</h4>
+                      <p class="text-small">
+                        Stay informed with everything crypto
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i class="fa-solid fa-arrow-up-right-dots color-1"></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>Academy (Learn & Earn)</h4>
+                      <p class="text-small">
+                        Earn crypto by learning about blockchain
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i
+                        class="fa-solid fa-house-flood-water-circle-arrow-right color-1"
+                      ></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>Blog</h4>
+                      <p class="text-small">
+                        Expand your knowledge and get the latest insights
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i class="fa-solid fa-road-bridge color-1"></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>Research</h4>
+                      <p class="text-small">
+                        Institutional-grade analysis, in-depth insights, and
+                        more
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </a>
+          <a href="">
+            <li class="dropdown">
+              <a href="#">
+                More
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+              <div class="dropdown-content">
+                <ul>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i class="fa-solid fa-kitchen-set color-1"></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>VIP & Institutional</h4>
+                      <p class="text-small">
+                        Your trusted digital asset platform for VIPs and
+                        institutions
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i class="fa-solid fa-arrow-up-right-dots color-1"></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>Launchpad & Launchpool</h4>
+                      <p class="text-small">
+                        Discover and gain access to new token launches
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i
+                        class="fa-solid fa-house-flood-water-circle-arrow-right color-1"
+                      ></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>Mining Pool</h4>
+                      <p class="text-small">
+                        Mine more rewards by connecting to the pool
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i
+                        class="fa-solid fa-house-flood-water-circle-arrow-right color-1"
+                      ></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>Play</h4>
+                      <p class="text-small">Send, receive and spend crypto</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i
+                        class="fa-solid fa-house-flood-water-circle-arrow-right color-1"
+                      ></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>Loans</h4>
+                      <p class="text-small">
+                        Get an instant loan secured by crypto assets
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i class="fa-solid fa-kitchen-set color-1"></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>Trading Bots</h4>
+                      <p class="text-small">
+                        Trade smarter with our various automated strategies -
+                        easy, fast and reliable
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i class="fa-solid fa-arrow-up-right-dots color-1"></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>Copy Trading</h4>
+                      <p class="text-small">Follow the most popular traders</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i
+                        class="fa-solid fa-house-flood-water-circle-arrow-right color-1"
+                      ></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>APIs</h4>
+                      <p class="text-small">
+                        Unlimited opportunities with one key
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i
+                        class="fa-solid fa-house-flood-water-circle-arrow-right color-1"
+                      ></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>APIs</h4>
+                      <p class="text-small">
+                        Unlimited opportunities with one key
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-basic-icon">
+                      <i
+                        class="fa-solid fa-house-flood-water-circle-arrow-right color-1"
+                      ></i>
+                    </div>
+                    <div class="dropdown-basic-info">
+                      <h4>APIs</h4>
+                      <p class="text-small">
+                        Unlimited opportunities with one key
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </a>
+        </ul>
+      </div>
+
+      <div class="right-nav">
+        <li class="dropdown">
+          <a href="#">
+            <i class="hover fa-solid fa-magnifying-glass"></i>
+          </a>
+          <div class="dropdown-content dropdown-content-right">
+            <ul>
               <li>
-                <a href="/pages/buyCrypto/crypto.html">Buy Crypto</a>
-              </li>
-            </a>
-            <a href="./markets.html">
-              <li>
-                <a>Markets</a>
-              </li>
-            </a>
-            <a href="">
-              <li class="dropdown">
-                <a href="#"> Trade <i class="fa-solid fa-angle-down"></i> </a>
-                <div class="dropdown-content">
-                  <ul>
-                    <span class="text-small">Basic</span>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i class="fa-solid fa-laptop-file color-1"></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>Spot</h4>
-                        <p class="text-small">
-                          Buy and sell on the Spot market with advanced tools
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i class="fa-solid fa-diagram-predecessor color-1"></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>Margin</h4>
-                        <p class="text-small">
-                          Increase your profits with leverage
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i class="fa-solid fa-diagram-project color-1"></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>P2P</h4>
-                        <p class="text-small">
-                          Buy & sell cryptocurrencies using bank transfer and 800+
-                          options
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i class="fa-solid fa-sun-plant-wilt color-1"></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>Convert & Block Trade</h4>
-                        <p class="text-small">
-                          The easiest way to trade at all sizes
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-                  <ul>
-                    <span class="text-small">Advanced</span>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i class="fa-solid fa-kitchen-set color-1"></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>Trading Bots</h4>
-                        <p class="text-small">
-                          Trade smarter with our various automated strategies -
-                          easy, fast and reliable
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i class="fa-solid fa-arrow-up-right-dots color-1"></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>Copy Trading</h4>
-                        <p class="text-small">Follow the most popular traders</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i
-                          class="fa-solid fa-house-flood-water-circle-arrow-right color-1"
-                        ></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>APIs</h4>
-                        <p class="text-small">
-                          Unlimited opportunities with one key
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
+                <div class="input-container">
+                  <input
+                    type="text"
+                    id="exampleInput"
+                    placeholder="Coin, Function, Announcment "
+                  />
                 </div>
               </li>
-            </a>
-            <a href="">
-              <li class="dropdown">
-                <a href="#"> Fetures <i class="fa-solid fa-angle-down"></i> </a>
-                <div class="dropdown-content">
-                  <ul>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i class="fa-solid fa-road-bridge color-1"></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>USDⓈ-M Futures</h4>
-                        <p class="text-small">Contracts settled in USDT</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i class="fa-solid fa-arrow-up-right-dots color-1"></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>COIN-M Futures</h4>
-                        <p class="text-small">
-                          Contracts settled in cryptocurrency
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i class="fa-solid fa-road-bridge color-1"></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>Options</h4>
-                        <p class="text-small">
-                          USDT Options with limited downside and affordable entry
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </a>
-            <a href="">
               <li>
-                <a href="#">Earn</a>
-              </li>
-            </a>
-            <a href="">
-              <li class="dropdown">
-                <a href="#"> Square <i class="fa-solid fa-angle-down"></i> </a>
-                <div class="dropdown-content">
-                  <ul>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i class="fa-solid fa-kitchen-set color-1"></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>Square</h4>
-                        <p class="text-small">
-                          Stay informed with everything crypto
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i class="fa-solid fa-arrow-up-right-dots color-1"></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>Academy (Learn & Earn)</h4>
-                        <p class="text-small">
-                          Earn crypto by learning about blockchain
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i
-                          class="fa-solid fa-house-flood-water-circle-arrow-right color-1"
-                        ></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>Blog</h4>
-                        <p class="text-small">
-                          Expand your knowledge and get the latest insights
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i class="fa-solid fa-road-bridge color-1"></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>Research</h4>
-                        <p class="text-small">
-                          Institutional-grade analysis, in-depth insights, and
-                          more
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
+                <div class="dropdown-basic-icon">
+                  <i class="fa-solid fa-arrow-up-right-dots color-1"></i>
+                </div>
+                <div class="dropdown-basic-info">
+                  <h4>COIN-M Futures</h4>
+                  <p class="text-small">Contracts settled in cryptocurrency</p>
                 </div>
               </li>
-            </a>
-            <a href="">
-              <li class="dropdown">
-                <a href="#">
-                  More
+              <li>
+                <div class="dropdown-basic-icon">
+                  <i class="fa-solid fa-road-bridge color-1"></i>
+                </div>
+                <div class="dropdown-basic-info">
+                  <h4>Options</h4>
+                  <p class="text-small">
+                    USDT Options with limited downside and affordable entry
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <a >
+          <a href="/pages/login/login.html" class="hover nav-btn">Log In</a>
+        </a>
+        <a href="">
+          <a href="/pages/register/register.html" class="nav-btn register">
+            <i class="fa-solid fa-gift" style="color: #000000"></i>
+            Register
+          </a>
+        </a>
+        <a href="#">
+          <i class="hover fa-regular fa-square-caret-down"></i>
+        </a>
+        <a href="#">
+          <i class="hover fa-solid fa-globe"></i>
+        </a>
+        <label onclick="sidenav()"><i class="fa-solid fa-bars"></i></label>
+      </div>
+      <p id="small-bars" onclick="sidenav()">
+        <i class="fa-solid fa-bars"></i>
+      </p>
+    </nav>
+
+    <!-- sidenav  -->
+    <div class="sidenav">
+      <div class="button-container-0">
+        <a href="/pages/login/login.html">
+          <button class="button-0 login-button-0">Login</button>
+        </a>
+        <a href="/pages/register/register.html">
+          <button class="button-0 register-button-0">Register</button>
+        </a>
+      </div>
+      <div class="input-container">
+        <input
+          type="text"
+          class="input"
+          placeholder="Coin, Function, Announcment "
+        />
+      </div>
+      <a href="/pages/buyCrypto/crypto.html">
+        <i class="fa-brands fa-btc"></i>Buy Crypto
+      </a>
+      <a href="#"> <i class="fa-solid fa-chart-simple"></i>Markets </a>
+      <!-- <button class="dropdown-btn" onClick={() => toggleDropdown(0)}>
+                <div class="dropdown-btn-content">
+                  <span>
+                    <i class="fa-solid fa-money-bill-trend-up"></i>
+                    Trade
+                  </span>
                   <i class="fa-solid fa-angle-down"></i>
-                </a>
-                <div class="dropdown-content">
-                  <ul>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i class="fa-solid fa-kitchen-set color-1"></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>VIP & Institutional</h4>
-                        <p class="text-small">
-                          Your trusted digital asset platform for VIPs and
-                          institutions
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i class="fa-solid fa-arrow-up-right-dots color-1"></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>Launchpad & Launchpool</h4>
-                        <p class="text-small">
-                          Discover and gain access to new token launches
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i
-                          class="fa-solid fa-house-flood-water-circle-arrow-right color-1"
-                        ></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>Mining Pool</h4>
-                        <p class="text-small">
-                          Mine more rewards by connecting to the pool
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i
-                          class="fa-solid fa-house-flood-water-circle-arrow-right color-1"
-                        ></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>Play</h4>
-                        <p class="text-small">Send, receive and spend crypto</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i
-                          class="fa-solid fa-house-flood-water-circle-arrow-right color-1"
-                        ></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>Loans</h4>
-                        <p class="text-small">
-                          Get an instant loan secured by crypto assets
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i class="fa-solid fa-kitchen-set color-1"></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>Trading Bots</h4>
-                        <p class="text-small">
-                          Trade smarter with our various automated strategies -
-                          easy, fast and reliable
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i class="fa-solid fa-arrow-up-right-dots color-1"></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>Copy Trading</h4>
-                        <p class="text-small">Follow the most popular traders</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i
-                          class="fa-solid fa-house-flood-water-circle-arrow-right color-1"
-                        ></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>APIs</h4>
-                        <p class="text-small">
-                          Unlimited opportunities with one key
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i
-                          class="fa-solid fa-house-flood-water-circle-arrow-right color-1"
-                        ></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>APIs</h4>
-                        <p class="text-small">
-                          Unlimited opportunities with one key
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="dropdown-basic-icon">
-                        <i
-                          class="fa-solid fa-house-flood-water-circle-arrow-right color-1"
-                        ></i>
-                      </div>
-                      <div class="dropdown-basic-info">
-                        <h4>APIs</h4>
-                        <p class="text-small">
-                          Unlimited opportunities with one key
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
                 </div>
-              </li>
-            </a>
-          </ul>
+              </button> -->
+      <div class="dropdown-content-2">
+        <a href="#">a 1</a>
+        <a href="#">a 2</a>
+        <a href="#">a 3</a>
+      </div>
+      <!-- <button class="dropdown-btn" onClick={() => toggleDropdown(1)}>
+                <div class="dropdown-btn-content">
+                  <span>
+                    <i class="fa-solid fa-book-atlas"></i>
+                    Futures
+                  </span>
+                  <i class="fa-solid fa-angle-down"></i>
+                </div>
+              </button> -->
+      <div class="dropdown-content-2">
+        <a href="#">a 1</a>
+        <a href="#">a 2</a>
+        <a href="#">a 3</a>
+      </div>
+      <a href="/pages/earn/earn.html">
+        <i class="fa-solid fa-earth-asia"></i>Earn
+      </a>
+      <!-- <button class="dropdown-btn" onClick={() => toggleDropdown(2)}>
+                <div class="dropdown-btn-content">
+                  <span>
+                    <i class="fa-solid fa-book-open"></i>
+                    Square
+                  </span>
+                  <i class="fa-solid fa-angle-down"></i>
+                </div>
+              </button> -->
+      <div class="dropdown-content-2">
+        <a href="#">a 1</a>
+        <a href="#">a 2</a>
+        <a href="#">a 3</a>
+      </div>
+      <button class="dropdown-btn" onClick="toggleDropdown(3)">
+        <div class="dropdown-btn-content">
+          <span>
+            <i class="fa-solid fa-table-cells-large"></i>
+            More
+          </span>
+          <i class="fa-solid fa-angle-down"></i>
         </div>
-  
-        <div class="right-nav">
-          <li class="dropdown">
-            <a href="#">
-              <i class="hover fa-solid fa-magnifying-glass"></i>
-            </a>
-            <div class="dropdown-content dropdown-content-right">
-              <ul>
-                <li>
-                  <div class="input-container">
-                    <input
-                      type="text"
-                      id="exampleInput"
-                      placeholder="Coin, Function, Announcment "
-                    />
-                  </div>
-                </li>
-                <li>
-                  <div class="dropdown-basic-icon">
-                    <i class="fa-solid fa-arrow-up-right-dots color-1"></i>
-                  </div>
-                  <div class="dropdown-basic-info">
-                    <h4>COIN-M Futures</h4>
-                    <p class="text-small">Contracts settled in cryptocurrency</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="dropdown-basic-icon">
-                    <i class="fa-solid fa-road-bridge color-1"></i>
-                  </div>
-                  <div class="dropdown-basic-info">
-                    <h4>Options</h4>
-                    <p class="text-small">
-                      USDT Options with limited downside and affordable entry
-                    </p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <a href="#"> </a>
-          <a href="">
-            <a class="hover nav-btn">Log In</a>
-          </a>
-          <a href="">
-            <a class="nav-btn register">
-              <i class="fa-solid fa-gift" style="color: #000000"></i>
-              Register
-            </a>
-          </a>
-          <a href="#">
-            <i class="hover fa-regular fa-square-caret-down"></i>
-          </a>
-          <a href="#">
-            <i class="hover fa-solid fa-globe"></i>
-          </a>
-          <label onclick="sidenav()"><i class="fa-solid fa-bars"></i></label>
-        </div>
-        <p id="small-bars" onclick="sidenav()">
-          <i class="fa-solid fa-bars"></i>
-        </p>
-      </nav>
+      </button>
+      <div class="dropdown-content-2">
+        <a href="#">a 1</a>
+        <a href="#">a 2</a>
+        <a href="#">a 3</a>
+      </div>
+      <a href="#"> <i class="fa-solid fa-headset"></i>24/7 Chat Support </a>
+      <a href="#"> <i class="fa-solid fa-earth-asia"></i>Download </a>
+      <a href="#"> <i class="fa-solid fa-globe"></i>English </a>
+      <a href="#"> <i class="fa-solid fa-dollar-sign"></i>USD </a>
+    </div>
 
     <div class="market-header-container">
-        <div class="market-header-title">
-          <h1>Markets Overview</h1>
-          <h3>Trading Data</h3>
+      <div class="market-header-title">
+        <h1>Markets Overview</h1>
+        <h3>Trading Data</h3>
+      </div>
+      <div class="market-header-info">
+        <div class="market-header-card">
+          <h4>Highlight Coin</h4>
+          <div class="market-header-card-info">
+            <div class="market-header-card-icon">
+              <i class="fa-brands fa-btc color-1"></i>
+              BTC
+            </div>
+            <h4 class="market-header-card-amount">$318.50</h4>
+            <h4 class="green-color">+3.72%</h4>
+          </div>
+          <div class="market-header-card-info">
+            <div class="market-header-card-icon">
+              <i class="fa-brands fa-btc color-1"></i>
+              BTC
+            </div>
+            <h4 class="market-header-card-amount">$318.50</h4>
+            <h4 class="green-color">+3.72%</h4>
+          </div>
+          <div class="market-header-card-info">
+            <div class="market-header-card-icon">
+              <i class="fa-brands fa-btc color-1"></i>
+              BTC
+            </div>
+            <h4 class="market-header-card-amount">$318.50</h4>
+            <h4 class="green-color">+3.72%</h4>
+          </div>
         </div>
-        <div class="market-header-info">
-          <div class="market-header-card">
-            <h4>Highlight Coin</h4>
-            <div class="market-header-card-info">
-              <div class="market-header-card-icon">
-                <i class="fa-brands fa-btc color-1"></i>
-                BTC
-              </div>
-              <h4 class='market-header-card-amount'>$318.50</h4>
-              <h4 class='green-color'>+3.72%</h4>
+        <div class="market-header-card">
+          <h4>Highlight Coin</h4>
+          <div class="market-header-card-info">
+            <div class="market-header-card-icon">
+              <i class="fa-brands fa-btc color-1"></i>
+              BTC
             </div>
-            <div class="market-header-card-info">
-              <div class="market-header-card-icon">
-                <i class="fa-brands fa-btc color-1"></i>
-                BTC
-              </div>
-              <h4 class='market-header-card-amount'>$318.50</h4>
-              <h4 class='green-color'>+3.72%</h4>
-            </div>
-            <div class="market-header-card-info">
-              <div class="market-header-card-icon">
-                <i class="fa-brands fa-btc color-1"></i>
-                BTC
-              </div>
-              <h4 class='market-header-card-amount'>$318.50</h4>
-              <h4 class='green-color'>+3.72%</h4>
-            </div>
+            <h4 class="market-header-card-amount">$318.50</h4>
+            <h4 class="green-color">+3.72%</h4>
           </div>
-          <div class="market-header-card">
-            <h4>Highlight Coin</h4>
-            <div class="market-header-card-info">
-              <div class="market-header-card-icon">
-                <i class="fa-brands fa-btc color-1"></i>
-                BTC
-              </div>
-              <h4 class='market-header-card-amount'>$318.50</h4>
-              <h4 class='green-color'>+3.72%</h4>
+          <div class="market-header-card-info">
+            <div class="market-header-card-icon">
+              <i class="fa-brands fa-btc color-1"></i>
+              BTC
             </div>
-            <div class="market-header-card-info">
-              <div class="market-header-card-icon">
-                <i class="fa-brands fa-btc color-1"></i>
-                BTC
-              </div>
-              <h4 class='market-header-card-amount'>$318.50</h4>
-              <h4 class='green-color'>+3.72%</h4>
-            </div>
-            <div class="market-header-card-info">
-              <div class="market-header-card-icon">
-                <i class="fa-brands fa-btc color-1"></i>
-                BTC
-              </div>
-              <h4 class='market-header-card-amount'>$318.50</h4>
-              <h4 class='green-color'>+3.72%</h4>
-            </div>
+            <h4 class="market-header-card-amount">$318.50</h4>
+            <h4 class="green-color">+3.72%</h4>
           </div>
-          <div class="market-header-card">
-            <h4>Highlight Coin</h4>
-            <div class="market-header-card-info">
-              <div class="market-header-card-icon">
-                <i class="fa-brands fa-btc color-1"></i>
-                BTC
-              </div>
-              <h4 class='market-header-card-amount'>$318.50</h4>
-              <h4 class='green-color'>+3.72%</h4>
+          <div class="market-header-card-info">
+            <div class="market-header-card-icon">
+              <i class="fa-brands fa-btc color-1"></i>
+              BTC
             </div>
-            <div class="market-header-card-info">
-              <div class="market-header-card-icon">
-                <i class="fa-brands fa-btc color-1"></i>
-                BTC
-              </div>
-              <h4 class='market-header-card-amount'>$318.50</h4>
-              <h4 class='green-color'>+3.72%</h4>
-            </div>
-            <div class="market-header-card-info">
-              <div class="market-header-card-icon">
-                <i class="fa-brands fa-btc color-1"></i>
-                BTC
-              </div>
-              <h4 class='market-header-card-amount'>$318.50</h4>
-              <h4 class='green-color'>+3.72%</h4>
-            </div>
+            <h4 class="market-header-card-amount">$318.50</h4>
+            <h4 class="green-color">+3.72%</h4>
           </div>
-          <div class="market-header-card">
-            <h4>Highlight Coin</h4>
-            <div class="market-header-card-info">
-              <div class="market-header-card-icon">
-                <i class="fa-brands fa-btc color-1"></i>
-                BTC
-              </div>
-              <h4 class='market-header-card-amount'>$318.50</h4>
-              <h4 class='green-color'>+3.72%</h4>
+        </div>
+        <div class="market-header-card">
+          <h4>Highlight Coin</h4>
+          <div class="market-header-card-info">
+            <div class="market-header-card-icon">
+              <i class="fa-brands fa-btc color-1"></i>
+              BTC
             </div>
-            <div class="market-header-card-info">
-              <div class="market-header-card-icon">
-                <i class="fa-brands fa-btc color-1"></i>
-                BTC
-              </div>
-              <h4 class='market-header-card-amount'>$318.50</h4>
-              <h4 class='green-color'>+3.72%</h4>
+            <h4 class="market-header-card-amount">$318.50</h4>
+            <h4 class="green-color">+3.72%</h4>
+          </div>
+          <div class="market-header-card-info">
+            <div class="market-header-card-icon">
+              <i class="fa-brands fa-btc color-1"></i>
+              BTC
             </div>
-            <div class="market-header-card-info">
-              <div class="market-header-card-icon">
-                <i class="fa-brands fa-btc color-1"></i>
-                BTC
-              </div>
-              <h4 class='market-header-card-amount'>$318.50</h4>
-              <h4 class='green-color'>+3.72%</h4>
+            <h4 class="market-header-card-amount">$318.50</h4>
+            <h4 class="green-color">+3.72%</h4>
+          </div>
+          <div class="market-header-card-info">
+            <div class="market-header-card-icon">
+              <i class="fa-brands fa-btc color-1"></i>
+              BTC
             </div>
+            <h4 class="market-header-card-amount">$318.50</h4>
+            <h4 class="green-color">+3.72%</h4>
+          </div>
+        </div>
+        <div class="market-header-card">
+          <h4>Highlight Coin</h4>
+          <div class="market-header-card-info">
+            <div class="market-header-card-icon">
+              <i class="fa-brands fa-btc color-1"></i>
+              BTC
+            </div>
+            <h4 class="market-header-card-amount">$318.50</h4>
+            <h4 class="green-color">+3.72%</h4>
+          </div>
+          <div class="market-header-card-info">
+            <div class="market-header-card-icon">
+              <i class="fa-brands fa-btc color-1"></i>
+              BTC
+            </div>
+            <h4 class="market-header-card-amount">$318.50</h4>
+            <h4 class="green-color">+3.72%</h4>
+          </div>
+          <div class="market-header-card-info">
+            <div class="market-header-card-icon">
+              <i class="fa-brands fa-btc color-1"></i>
+              BTC
+            </div>
+            <h4 class="market-header-card-amount">$318.50</h4>
+            <h4 class="green-color">+3.72%</h4>
           </div>
         </div>
       </div>
+    </div>
     <!-- market header end here  -->
-    <div>
-        <div class="option-container">
-    <div class="options">
-        <p>Favorites</p>
-        <p>All Cryptos</p>
-        <p>Spot/Margin Market</p>
-        <p>Futures Markets</p>
-        <p>New Listing</p>
-        <p>Zones</p>
-
-    </div>
-    <i class="fa-solid fa-magnifying-glass"></i>
-</div>
-<div class="option-container">
-    <div class="options">
-        <p>All</p>
-        <p>Layer 1/Layer 2</p>
-        <p>Metaverse</p>
-        <p>Monitoring</p>
-        <p>Seed</p>
-        <p>Meme</p>
-        <p>Liquid Staking</p>
-        <p>Others</p>
-
-    </div>
-</div>
+    <div class="main-option-container">
+      <div class="option-container">
+        <div class="options">
+          <p>Favorites</p>
+          <p>All Cryptos</p>
+          <p>Spot/Margin Market</p>
+          <p>Futures Markets</p>
+          <p>New Listing</p>
+          <p>Zones</p>
+        </div>
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="option-container">
+        <div class="options">
+          <p>All</p>
+          <p>Layer 1/Layer 2</p>
+          <p>Metaverse</p>
+          <p>Monitoring</p>
+          <p>Seed</p>
+          <p>Meme</p>
+          <p>Liquid Staking</p>
+          <p>Others</p>
+        </div>
+      </div>
     </div>
 
     <div class="markets-coins-container">
-        <div class="markets-coins">
-          <div class="markets-coins-name text-12">Name :</div>
-          <div class="markets-coins-right">
-            <div class="markets-coins-price text-right text-12">
-              Price :
+      <div class="markets-coins">
+        <div class="markets-coins-name text-12">Name :</div>
+        <div class="markets-coins-right">
+          <div class="markets-coins-price text-right text-12">Price :</div>
+          <div class="markets-coins-change text-right text-12">Change :</div>
+          <div class="markets-coins-24hours text-right text-12">
+            24 hours volume :
+          </div>
+          <div class="markets-coins-cap text-right text-12">Market Cap :</div>
+          <div class="markets-coins-actions text-right text-12">Actions :</div>
+        </div>
+      </div>
+      <div class="markets-coins">
+        <div class="markets-coins-name">
+          <h4>
+            <i class="fa-brands fa-btc color-1"></i>
+            <div class="markets-coins-name-info">
+              <span>BTC</span>
+              <span class="text-small">Bitcoin</span>
             </div>
-            <div class="markets-coins-change text-right text-12">
-              Change :
-            </div>
-            <div class="markets-coins-24hours text-right text-12">
-              24 hours volume :
-            </div>
-            <div class="markets-coins-cap text-right text-12">
-              Market Cap :
-            </div>
-            <div class="markets-coins-actions text-right text-12">
-              Actions :
-            </div>
+          </h4>
+        </div>
+        <div class="markets-coins-right">
+          <div class="markets-coins-price text-right">$42,500.00</div>
+          <div class="markets-coins-change color-red text-right">-6.57%</div>
+          <div class="markets-coins-24hours text-right">$40.25B</div>
+          <div class="markets-coins-cap text-right">$832.52B</div>
+          <div class="markets-coins-actions text-right">
+            <span>Details</span> <span>Trade</span>
           </div>
         </div>
-        <div class="markets-coins">
-          <div class="markets-coins-name">
-            <h4>
-              <i class="fa-brands fa-btc color-1"></i>
-              <div class="markets-coins-name-info">
-                <span>BTC</span>
-                <span class="text-small">Bitcoin</span>
-              </div>
-            </h4>
-          </div>
-          <div class="markets-coins-right">
-            <div class="markets-coins-price text-right">$42,500.00</div>
-            <div class="markets-coins-change color-red text-right">
-              -6.57%
+      </div>
+      <div class="markets-coins">
+        <div class="markets-coins-name">
+          <h4>
+            <i class="fa-brands fa-btc color-1"></i>
+            <div class="markets-coins-name-info">
+              <span>BTC</span>
+              <span class="text-small">Bitcoin</span>
             </div>
-            <div class="markets-coins-24hours text-right">$40.25B</div>
-            <div class="markets-coins-cap text-right">$832.52B</div>
-            <div class="markets-coins-actions text-right">
-              <span>Details</span> <span>Trade</span>
-            </div>
+          </h4>
+        </div>
+        <div class="markets-coins-right">
+          <div class="markets-coins-price text-right">$42,500.00</div>
+          <div class="markets-coins-change color-red text-right">-6.57%</div>
+          <div class="markets-coins-24hours text-right">$40.25B</div>
+          <div class="markets-coins-cap text-right">$832.52B</div>
+          <div class="markets-coins-actions text-right">
+            <span>Details</span> <span>Trade</span>
           </div>
         </div>
-        <div class="markets-coins">
-          <div class="markets-coins-name">
-            <h4>
-              <i class="fa-brands fa-btc color-1"></i>
-              <div class="markets-coins-name-info">
-                <span>BTC</span>
-                <span class="text-small">Bitcoin</span>
-              </div>
-            </h4>
-          </div>
-          <div class="markets-coins-right">
-            <div class="markets-coins-price text-right">$42,500.00</div>
-            <div class="markets-coins-change color-red text-right">
-              -6.57%
+      </div>
+      <div class="markets-coins">
+        <div class="markets-coins-name">
+          <h4>
+            <i class="fa-brands fa-btc color-1"></i>
+            <div class="markets-coins-name-info">
+              <span>BTC</span>
+              <span class="text-small">Bitcoin</span>
             </div>
-            <div class="markets-coins-24hours text-right">$40.25B</div>
-            <div class="markets-coins-cap text-right">$832.52B</div>
-            <div class="markets-coins-actions text-right">
-              <span>Details</span> <span>Trade</span>
-            </div>
+          </h4>
+        </div>
+        <div class="markets-coins-right">
+          <div class="markets-coins-price text-right">$42,500.00</div>
+          <div class="markets-coins-change color-red text-right">-6.57%</div>
+          <div class="markets-coins-24hours text-right">$40.25B</div>
+          <div class="markets-coins-cap text-right">$832.52B</div>
+          <div class="markets-coins-actions text-right">
+            <span>Details</span> <span>Trade</span>
           </div>
         </div>
-        <div class="markets-coins">
-          <div class="markets-coins-name">
-            <h4>
-              <i class="fa-brands fa-btc color-1"></i>
-              <div class="markets-coins-name-info">
-                <span>BTC</span>
-                <span class="text-small">Bitcoin</span>
-              </div>
-            </h4>
-          </div>
-          <div class="markets-coins-right">
-            <div class="markets-coins-price text-right">$42,500.00</div>
-            <div class="markets-coins-change color-red text-right">
-              -6.57%
+      </div>
+      <div class="markets-coins">
+        <div class="markets-coins-name">
+          <h4>
+            <i class="fa-brands fa-btc color-1"></i>
+            <div class="markets-coins-name-info">
+              <span>BTC</span>
+              <span class="text-small">Bitcoin</span>
             </div>
-            <div class="markets-coins-24hours text-right">$40.25B</div>
-            <div class="markets-coins-cap text-right">$832.52B</div>
-            <div class="markets-coins-actions text-right">
-              <span>Details</span> <span>Trade</span>
-            </div>
+          </h4>
+        </div>
+        <div class="markets-coins-right">
+          <div class="markets-coins-price text-right">$42,500.00</div>
+          <div class="markets-coins-change color-red text-right">-6.57%</div>
+          <div class="markets-coins-24hours text-right">$40.25B</div>
+          <div class="markets-coins-cap text-right">$832.52B</div>
+          <div class="markets-coins-actions text-right">
+            <span>Details</span> <span>Trade</span>
           </div>
         </div>
-        <div class="markets-coins">
-          <div class="markets-coins-name">
-            <h4>
-              <i class="fa-brands fa-btc color-1"></i>
-              <div class="markets-coins-name-info">
-                <span>BTC</span>
-                <span class="text-small">Bitcoin</span>
-              </div>
-            </h4>
-          </div>
-          <div class="markets-coins-right">
-            <div class="markets-coins-price text-right">$42,500.00</div>
-            <div class="markets-coins-change color-red text-right">
-              -6.57%
+      </div>
+      <div class="markets-coins">
+        <div class="markets-coins-name">
+          <h4>
+            <i class="fa-brands fa-btc color-1"></i>
+            <div class="markets-coins-name-info">
+              <span>BTC</span>
+              <span class="text-small">Bitcoin</span>
             </div>
-            <div class="markets-coins-24hours text-right">$40.25B</div>
-            <div class="markets-coins-cap text-right">$832.52B</div>
-            <div class="markets-coins-actions text-right">
-              <span>Details</span> <span>Trade</span>
-            </div>
+          </h4>
+        </div>
+        <div class="markets-coins-right">
+          <div class="markets-coins-price text-right">$42,500.00</div>
+          <div class="markets-coins-change color-red text-right">-6.57%</div>
+          <div class="markets-coins-24hours text-right">$40.25B</div>
+          <div class="markets-coins-cap text-right">$832.52B</div>
+          <div class="markets-coins-actions text-right">
+            <span>Details</span> <span>Trade</span>
           </div>
         </div>
-        <div class="markets-coins">
-          <div class="markets-coins-name">
-            <h4>
-              <i class="fa-brands fa-btc color-1"></i>
-              <div class="markets-coins-name-info">
-                <span>BTC</span>
-                <span class="text-small">Bitcoin</span>
-              </div>
-            </h4>
-          </div>
-          <div class="markets-coins-right">
-            <div class="markets-coins-price text-right">$42,500.00</div>
-            <div class="markets-coins-change color-red text-right">
-              -6.57%
+      </div>
+      <div class="markets-coins">
+        <div class="markets-coins-name">
+          <h4>
+            <i class="fa-brands fa-btc color-1"></i>
+            <div class="markets-coins-name-info">
+              <span>BTC</span>
+              <span class="text-small">Bitcoin</span>
             </div>
-            <div class="markets-coins-24hours text-right">$40.25B</div>
-            <div class="markets-coins-cap text-right">$832.52B</div>
-            <div class="markets-coins-actions text-right">
-              <span>Details</span> <span>Trade</span>
-            </div>
+          </h4>
+        </div>
+        <div class="markets-coins-right">
+          <div class="markets-coins-price text-right">$42,500.00</div>
+          <div class="markets-coins-change color-red text-right">-6.57%</div>
+          <div class="markets-coins-24hours text-right">$40.25B</div>
+          <div class="markets-coins-cap text-right">$832.52B</div>
+          <div class="markets-coins-actions text-right">
+            <span>Details</span> <span>Trade</span>
           </div>
         </div>
-        <div class="markets-coins">
-          <div class="markets-coins-name">
-            <h4>
-              <i class="fa-brands fa-btc color-1"></i>
-              <div class="markets-coins-name-info">
-                <span>BTC</span>
-                <span class="text-small">Bitcoin</span>
-              </div>
-            </h4>
-          </div>
-          <div class="markets-coins-right">
-            <div class="markets-coins-price text-right">$42,500.00</div>
-            <div class="markets-coins-change color-red text-right">
-              -6.57%
+      </div>
+      <div class="markets-coins">
+        <div class="markets-coins-name">
+          <h4>
+            <i class="fa-brands fa-btc color-1"></i>
+            <div class="markets-coins-name-info">
+              <span>BTC</span>
+              <span class="text-small">Bitcoin</span>
             </div>
-            <div class="markets-coins-24hours text-right">$40.25B</div>
-            <div class="markets-coins-cap text-right">$832.52B</div>
-            <div class="markets-coins-actions text-right">
-              <span>Details</span> <span>Trade</span>
-            </div>
+          </h4>
+        </div>
+        <div class="markets-coins-right">
+          <div class="markets-coins-price text-right">$42,500.00</div>
+          <div class="markets-coins-change color-red text-right">-6.57%</div>
+          <div class="markets-coins-24hours text-right">$40.25B</div>
+          <div class="markets-coins-cap text-right">$832.52B</div>
+          <div class="markets-coins-actions text-right">
+            <span>Details</span> <span>Trade</span>
           </div>
         </div>
-        <div class="markets-coins">
-          <div class="markets-coins-name">
-            <h4>
-              <i class="fa-brands fa-btc color-1"></i>
-              <div class="markets-coins-name-info">
-                <span>BTC</span>
-                <span class="text-small">Bitcoin</span>
-              </div>
-            </h4>
-          </div>
-          <div class="markets-coins-right">
-            <div class="markets-coins-price text-right">$42,500.00</div>
-            <div class="markets-coins-change color-red text-right">
-              -6.57%
+      </div>
+      <div class="markets-coins">
+        <div class="markets-coins-name">
+          <h4>
+            <i class="fa-brands fa-btc color-1"></i>
+            <div class="markets-coins-name-info">
+              <span>BTC</span>
+              <span class="text-small">Bitcoin</span>
             </div>
-            <div class="markets-coins-24hours text-right">$40.25B</div>
-            <div class="markets-coins-cap text-right">$832.52B</div>
-            <div class="markets-coins-actions text-right">
-              <span>Details</span> <span>Trade</span>
-            </div>
+          </h4>
+        </div>
+        <div class="markets-coins-right">
+          <div class="markets-coins-price text-right">$42,500.00</div>
+          <div class="markets-coins-change color-red text-right">-6.57%</div>
+          <div class="markets-coins-24hours text-right">$40.25B</div>
+          <div class="markets-coins-cap text-right">$832.52B</div>
+          <div class="markets-coins-actions text-right">
+            <span>Details</span> <span>Trade</span>
           </div>
         </div>
-        <div class="markets-coins">
-          <div class="markets-coins-name">
-            <h4>
-              <i class="fa-brands fa-btc color-1"></i>
-              <div class="markets-coins-name-info">
-                <span>BTC</span>
-                <span class="text-small">Bitcoin</span>
-              </div>
-            </h4>
-          </div>
-          <div class="markets-coins-right">
-            <div class="markets-coins-price text-right">$42,500.00</div>
-            <div class="markets-coins-change color-red text-right">
-              -6.57%
+      </div>
+      <div class="markets-coins">
+        <div class="markets-coins-name">
+          <h4>
+            <i class="fa-brands fa-btc color-1"></i>
+            <div class="markets-coins-name-info">
+              <span>BTC</span>
+              <span class="text-small">Bitcoin</span>
             </div>
-            <div class="markets-coins-24hours text-right">$40.25B</div>
-            <div class="markets-coins-cap text-right">$832.52B</div>
-            <div class="markets-coins-actions text-right">
-              <span>Details</span> <span>Trade</span>
-            </div>
+          </h4>
+        </div>
+        <div class="markets-coins-right">
+          <div class="markets-coins-price text-right">$42,500.00</div>
+          <div class="markets-coins-change color-red text-right">-6.57%</div>
+          <div class="markets-coins-24hours text-right">$40.25B</div>
+          <div class="markets-coins-cap text-right">$832.52B</div>
+          <div class="markets-coins-actions text-right">
+            <span>Details</span> <span>Trade</span>
           </div>
         </div>
-        <div class="markets-coins">
-          <div class="markets-coins-name">
-            <h4>
-              <i class="fa-brands fa-btc color-1"></i>
-              <div class="markets-coins-name-info">
-                <span>BTC</span>
-                <span class="text-small">Bitcoin</span>
-              </div>
-            </h4>
-          </div>
-          <div class="markets-coins-right">
-            <div class="markets-coins-price text-right">$42,500.00</div>
-            <div class="markets-coins-change color-red text-right">
-              -6.57%
+      </div>
+      <div class="markets-coins">
+        <div class="markets-coins-name">
+          <h4>
+            <i class="fa-brands fa-btc color-1"></i>
+            <div class="markets-coins-name-info">
+              <span>BTC</span>
+              <span class="text-small">Bitcoin</span>
             </div>
-            <div class="markets-coins-24hours text-right">$40.25B</div>
-            <div class="markets-coins-cap text-right">$832.52B</div>
-            <div class="markets-coins-actions text-right">
-              <span>Details</span> <span>Trade</span>
-            </div>
+          </h4>
+        </div>
+        <div class="markets-coins-right">
+          <div class="markets-coins-price text-right">$42,500.00</div>
+          <div class="markets-coins-change color-red text-right">-6.57%</div>
+          <div class="markets-coins-24hours text-right">$40.25B</div>
+          <div class="markets-coins-cap text-right">$832.52B</div>
+          <div class="markets-coins-actions text-right">
+            <span>Details</span> <span>Trade</span>
           </div>
         </div>
-        <div class="markets-coins">
-          <div class="markets-coins-name">
-            <h4>
-              <i class="fa-brands fa-btc color-1"></i>
-              <div class="markets-coins-name-info">
-                <span>BTC</span>
-                <span class="text-small">Bitcoin</span>
-              </div>
-            </h4>
-          </div>
-          <div class="markets-coins-right">
-            <div class="markets-coins-price text-right">$42,500.00</div>
-            <div class="markets-coins-change color-red text-right">
-              -6.57%
+      </div>
+      <div class="markets-coins">
+        <div class="markets-coins-name">
+          <h4>
+            <i class="fa-brands fa-btc color-1"></i>
+            <div class="markets-coins-name-info">
+              <span>BTC</span>
+              <span class="text-small">Bitcoin</span>
             </div>
-            <div class="markets-coins-24hours text-right">$40.25B</div>
-            <div class="markets-coins-cap text-right">$832.52B</div>
-            <div class="markets-coins-actions text-right">
-              <span>Details</span> <span>Trade</span>
-            </div>
+          </h4>
+        </div>
+        <div class="markets-coins-right">
+          <div class="markets-coins-price text-right">$42,500.00</div>
+          <div class="markets-coins-change color-red text-right">-6.57%</div>
+          <div class="markets-coins-24hours text-right">$40.25B</div>
+          <div class="markets-coins-cap text-right">$832.52B</div>
+          <div class="markets-coins-actions text-right">
+            <span>Details</span> <span>Trade</span>
           </div>
         </div>
-        <div class="markets-coins">
-          <div class="markets-coins-name">
-            <h4>
-              <i class="fa-brands fa-btc color-1"></i>
-              <div class="markets-coins-name-info">
-                <span>BTC</span>
-                <span class="text-small">Bitcoin</span>
-              </div>
-            </h4>
-          </div>
-          <div class="markets-coins-right">
-            <div class="markets-coins-price text-right">$42,500.00</div>
-            <div class="markets-coins-change color-red text-right">
-              -6.57%
+      </div>
+      <div class="markets-coins">
+        <div class="markets-coins-name">
+          <h4>
+            <i class="fa-brands fa-btc color-1"></i>
+            <div class="markets-coins-name-info">
+              <span>BTC</span>
+              <span class="text-small">Bitcoin</span>
             </div>
-            <div class="markets-coins-24hours text-right">$40.25B</div>
-            <div class="markets-coins-cap text-right">$832.52B</div>
-            <div class="markets-coins-actions text-right">
-              <span>Details</span> <span>Trade</span>
-            </div>
+          </h4>
+        </div>
+        <div class="markets-coins-right">
+          <div class="markets-coins-price text-right">$42,500.00</div>
+          <div class="markets-coins-change color-red text-right">-6.57%</div>
+          <div class="markets-coins-24hours text-right">$40.25B</div>
+          <div class="markets-coins-cap text-right">$832.52B</div>
+          <div class="markets-coins-actions text-right">
+            <span>Details</span> <span>Trade</span>
           </div>
         </div>
-        <div class="markets-coins">
-          <div class="markets-coins-name">
-            <h4>
-              <i class="fa-brands fa-btc color-1"></i>
-              <div class="markets-coins-name-info">
-                <span>BTC</span>
-                <span class="text-small">Bitcoin</span>
-              </div>
-            </h4>
-          </div>
-          <div class="markets-coins-right">
-            <div class="markets-coins-price text-right">$42,500.00</div>
-            <div class="markets-coins-change color-red text-right">
-              -6.57%
+      </div>
+      <div class="markets-coins">
+        <div class="markets-coins-name">
+          <h4>
+            <i class="fa-brands fa-btc color-1"></i>
+            <div class="markets-coins-name-info">
+              <span>BTC</span>
+              <span class="text-small">Bitcoin</span>
             </div>
-            <div class="markets-coins-24hours text-right">$40.25B</div>
-            <div class="markets-coins-cap text-right">$832.52B</div>
-            <div class="markets-coins-actions text-right">
-              <span>Details</span> <span>Trade</span>
-            </div>
+          </h4>
+        </div>
+        <div class="markets-coins-right">
+          <div class="markets-coins-price text-right">$42,500.00</div>
+          <div class="markets-coins-change color-red text-right">-6.57%</div>
+          <div class="markets-coins-24hours text-right">$40.25B</div>
+          <div class="markets-coins-cap text-right">$832.52B</div>
+          <div class="markets-coins-actions text-right">
+            <span>Details</span> <span>Trade</span>
           </div>
         </div>
-        <div class="markets-coins">
-          <div class="markets-coins-name">
-            <h4>
-              <i class="fa-brands fa-btc color-1"></i>
-              <div class="markets-coins-name-info">
-                <span>BTC</span>
-                <span class="text-small">Bitcoin</span>
-              </div>
-            </h4>
-          </div>
-          <div class="markets-coins-right">
-            <div class="markets-coins-price text-right">$42,500.00</div>
-            <div class="markets-coins-change color-red text-right">
-              -6.57%
+      </div>
+      <div class="markets-coins">
+        <div class="markets-coins-name">
+          <h4>
+            <i class="fa-brands fa-btc color-1"></i>
+            <div class="markets-coins-name-info">
+              <span>BTC</span>
+              <span class="text-small">Bitcoin</span>
             </div>
-            <div class="markets-coins-24hours text-right">$40.25B</div>
-            <div class="markets-coins-cap text-right">$832.52B</div>
-            <div class="markets-coins-actions text-right">
-              <span>Details</span> <span>Trade</span>
-            </div>
+          </h4>
+        </div>
+        <div class="markets-coins-right">
+          <div class="markets-coins-price text-right">$42,500.00</div>
+          <div class="markets-coins-change color-red text-right">-6.57%</div>
+          <div class="markets-coins-24hours text-right">$40.25B</div>
+          <div class="markets-coins-cap text-right">$832.52B</div>
+          <div class="markets-coins-actions text-right">
+            <span>Details</span> <span>Trade</span>
           </div>
         </div>
-        <div class="markets-coins">
-          <div class="markets-coins-name">
-            <h4>
-              <i class="fa-brands fa-btc color-1"></i>
-              <div class="markets-coins-name-info">
-                <span>BTC</span>
-                <span class="text-small">Bitcoin</span>
-              </div>
-            </h4>
-          </div>
-          <div class="markets-coins-right">
-            <div class="markets-coins-price text-right">$42,500.00</div>
-            <div class="markets-coins-change color-red text-right">
-              -6.57%
+      </div>
+      <div class="markets-coins">
+        <div class="markets-coins-name">
+          <h4>
+            <i class="fa-brands fa-btc color-1"></i>
+            <div class="markets-coins-name-info">
+              <span>BTC</span>
+              <span class="text-small">Bitcoin</span>
             </div>
-            <div class="markets-coins-24hours text-right">$40.25B</div>
-            <div class="markets-coins-cap text-right">$832.52B</div>
-            <div class="markets-coins-actions text-right">
-              <span>Details</span> <span>Trade</span>
-            </div>
+          </h4>
+        </div>
+        <div class="markets-coins-right">
+          <div class="markets-coins-price text-right">$42,500.00</div>
+          <div class="markets-coins-change color-red text-right">-6.57%</div>
+          <div class="markets-coins-24hours text-right">$40.25B</div>
+          <div class="markets-coins-cap text-right">$832.52B</div>
+          <div class="markets-coins-actions text-right">
+            <span>Details</span> <span>Trade</span>
           </div>
         </div>
-        <div class="markets-coins">
-          <div class="markets-coins-name">
-            <h4>
-              <i class="fa-brands fa-btc color-1"></i>
-              <div class="markets-coins-name-info">
-                <span>BTC</span>
-                <span class="text-small">Bitcoin</span>
-              </div>
-            </h4>
-          </div>
-          <div class="markets-coins-right">
-            <div class="markets-coins-price text-right">$42,500.00</div>
-            <div class="markets-coins-change color-red text-right">
-              -6.57%
+      </div>
+      <div class="markets-coins">
+        <div class="markets-coins-name">
+          <h4>
+            <i class="fa-brands fa-btc color-1"></i>
+            <div class="markets-coins-name-info">
+              <span>BTC</span>
+              <span class="text-small">Bitcoin</span>
             </div>
-            <div class="markets-coins-24hours text-right">$40.25B</div>
-            <div class="markets-coins-cap text-right">$832.52B</div>
-            <div class="markets-coins-actions text-right">
-              <span>Details</span> <span>Trade</span>
-            </div>
+          </h4>
+        </div>
+        <div class="markets-coins-right">
+          <div class="markets-coins-price text-right">$42,500.00</div>
+          <div class="markets-coins-change color-red text-right">-6.57%</div>
+          <div class="markets-coins-24hours text-right">$40.25B</div>
+          <div class="markets-coins-cap text-right">$832.52B</div>
+          <div class="markets-coins-actions text-right">
+            <span>Details</span> <span>Trade</span>
           </div>
         </div>
-        <div class="markets-coins">
-          <div class="markets-coins-name">
-            <h4>
-              <i class="fa-brands fa-btc color-1"></i>
-              <div class="markets-coins-name-info">
-                <span>BTC</span>
-                <span class="text-small">Bitcoin</span>
-              </div>
-            </h4>
-          </div>
-          <div class="markets-coins-right">
-            <div class="markets-coins-price text-right">$42,500.00</div>
-            <div class="markets-coins-change color-red text-right">
-              -6.57%
+      </div>
+      <div class="markets-coins">
+        <div class="markets-coins-name">
+          <h4>
+            <i class="fa-brands fa-btc color-1"></i>
+            <div class="markets-coins-name-info">
+              <span>BTC</span>
+              <span class="text-small">Bitcoin</span>
             </div>
-            <div class="markets-coins-24hours text-right">$40.25B</div>
-            <div class="markets-coins-cap text-right">$832.52B</div>
-            <div class="markets-coins-actions text-right">
-              <span>Details</span> <span>Trade</span>
-            </div>
+          </h4>
+        </div>
+        <div class="markets-coins-right">
+          <div class="markets-coins-price text-right">$42,500.00</div>
+          <div class="markets-coins-change color-red text-right">-6.57%</div>
+          <div class="markets-coins-24hours text-right">$40.25B</div>
+          <div class="markets-coins-cap text-right">$832.52B</div>
+          <div class="markets-coins-actions text-right">
+            <span>Details</span> <span>Trade</span>
           </div>
         </div>
-        <div class="markets-coins">
-          <div class="markets-coins-name">
-            <h4>
-              <i class="fa-brands fa-btc color-1"></i>
-              <div class="markets-coins-name-info">
-                <span>BTC</span>
-                <span class="text-small">Bitcoin</span>
-              </div>
-            </h4>
-          </div>
-          <div class="markets-coins-right">
-            <div class="markets-coins-price text-right">$42,500.00</div>
-            <div class="markets-coins-change color-red text-right">
-              -6.57%
+      </div>
+      <div class="markets-coins">
+        <div class="markets-coins-name">
+          <h4>
+            <i class="fa-brands fa-btc color-1"></i>
+            <div class="markets-coins-name-info">
+              <span>BTC</span>
+              <span class="text-small">Bitcoin</span>
             </div>
-            <div class="markets-coins-24hours text-right">$40.25B</div>
-            <div class="markets-coins-cap text-right">$832.52B</div>
-            <div class="markets-coins-actions text-right">
-              <span>Details</span> <span>Trade</span>
-            </div>
+          </h4>
+        </div>
+        <div class="markets-coins-right">
+          <div class="markets-coins-price text-right">$42,500.00</div>
+          <div class="markets-coins-change color-red text-right">-6.57%</div>
+          <div class="markets-coins-24hours text-right">$40.25B</div>
+          <div class="markets-coins-cap text-right">$832.52B</div>
+          <div class="markets-coins-actions text-right">
+            <span>Details</span> <span>Trade</span>
           </div>
         </div>
-        <div class="markets-coins">
-          <div class="markets-coins-name">
-            <h4>
-              <i class="fa-brands fa-btc color-1"></i>
-              <div class="markets-coins-name-info">
-                <span>BTC</span>
-                <span class="text-small">Bitcoin</span>
-              </div>
-            </h4>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-icon-column">
+          <h4>Community</h4>
+          <ul class="footer-icon-1">
+            <li><i class="fa-brands fa-discord" style="color: #eaecef"></i></li>
+            <li>
+              <i class="fa-brands fa-telegram" style="color: #eaecef"></i>
+            </li>
+            <li><i class="fa-brands fa-tiktok" style="color: #eaecef"></i></li>
+            <li>
+              <i class="fa-brands fa-facebook" style="color: #eaecef"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-x-twitter" style="color: #eaecef"></i>
+            </li>
+            <li><i class="fa-brands fa-reddit" style="color: #eaecef"></i></li>
+            <li><i class="fa-brands fa-weibo" style="color: #eaecef"></i></li>
+            <li>
+              <i class="fa-brands fa-instagram" style="color: #eaecef"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-nfc-symbol" style="color: #eaecef"></i>
+            </li>
+            <li><i class="fa-brands fa-youtube" style="color: #eaecef"></i></li>
+            <li>...</li>
+          </ul>
+          <div class="footer-icon-2">
+            <li>
+              <i class="fa-solid fa-globe" style="color: #eaecef"></i>
+              <span>English</span>
+            </li>
+            <li>
+              <i
+                class="fa-solid fa-circle-dollar-to-slot"
+                style="color: #eaecef"
+              ></i
+              ><span>USD-$</span>
+            </li>
+            <li>
+              <i
+                class="fa-solid fa-toggle-on fa-toggle-on-1"
+                style="color: #eaecef"
+              ></i>
+            </li>
           </div>
-          <div class="markets-coins-right">
-            <div class="markets-coins-price text-right">$42,500.00</div>
-            <div class="markets-coins-change color-red text-right">
-              -6.57%
-            </div>
-            <div class="markets-coins-24hours text-right">$40.25B</div>
-            <div class="markets-coins-cap text-right">$832.52B</div>
-            <div class="markets-coins-actions text-right">
-              <span>Details</span> <span>Trade</span>
-            </div>
+        </div>
+        <div class="footer-row">
+          <div class="footer-column">
+            <h4>About</h4>
+            <ul class="footer-links">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Business Contacts</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Announcements</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Legal</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Building Trust</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Stiemap</a></li>
+              <li><a href="#">Risk Warging</a></li>
+              <li><a href="#">Notices</a></li>
+              <li><a href="#">Downloads</a></li>
+              <li><a href="#">Desktop Application</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Products</h4>
+            <ul class="footer-links">
+              <li><a href="#">Exchange</a></li>
+              <li><a href="#">Buy Crypto</a></li>
+              <li><a href="#">Leveraged</a></li>
+              <li><a href="#">TradingView</a></li>
+              <li><a href="#">Pay</a></li>
+              <li><a href="#">Academy</a></li>
+              <li><a href="#">Live</a></li>
+              <li><a href="#">Tax</a></li>
+              <li><a href="#">Gift Card</a></li>
+              <li><a href="#">Lanchpad</a></li>
+              <li><a href="#">Auto-Invest</a></li>
+              <li><a href="#">ETH Staking</a></li>
+              <li><a href="#">Defi Staking</a></li>
+              <li><a href="#">NFT</a></li>
+              <li><a href="#">BNB</a></li>
+              <li><a href="#">BABT</a></li>
+              <li><a href="#">Research</a></li>
+              <li><a href="#">Charity</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Business</h4>
+            <ul class="footer-links">
+              <li><a href="#">P2P Merchant Application</a></li>
+              <li><a href="#">P2Pro Merchant Application</a></li>
+              <li><a href="#">Listing Application</a></li>
+              <li><a href="#">Intitutional & VIP Services</a></li>
+              <li><a href="#">Labs</a></li>
+            </ul>
+            <h4 class="top-40">Learn</h4>
+            <ul class="footer-links">
+              <li><a href="#">Learn & Earn</a></li>
+              <li><a href="#">Browse Crypto Prices</a></li>
+              <li><a href="#">Bitcoin Price</a></li>
+              <li><a href="#">Ethereum Price</a></li>
+              <li><a href="#">Buy Bitcoin</a></li>
+              <li><a href="#">Buy BNB</a></li>
+              <li><a href="#">Buy Ripple</a></li>
+              <li><a href="#">Buy Dogecoin</a></li>
+              <li><a href="#">Buy Ethereum</a></li>
+              <li><a href="#">Buy Tradable Altcoins</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Service</h4>
+            <ul class="footer-links">
+              <li><a href="#">Affiliate</a></li>
+              <li><a href="#">Referral</a></li>
+              <li><a href="#">OTC Trading</a></li>
+              <li><a href="#">Historical Market Data</a></li>
+              <li><a href="#">Proof of Reserve</a></li>
+            </ul>
+            <h4 class="top-40">Support</h4>
+            <ul class="footer-links">
+              <li><a href="#">24/7 Chat Support</a></li>
+              <li><a href="#">Support Center</a></li>
+              <li><a href="#">Request a Feature</a></li>
+              <li><a href="#">Fees</a></li>
+              <li><a href="#">APIs</a></li>
+              <li><a href="#">Binance Verify</a></li>
+              <li><a href="#">Trading Rules</a></li>
+              <li><a href="#">Binance Airdrop Portal</a></li>
+              <li><a href="#">Law Enforcement Requests</a></li>
+              <li><a href="#">Binance Legal(Count Orders)</a></li>
+            </ul>
           </div>
         </div>
       </div>
 
-      <footer>
-        <div class="footer">
-          <div class="footer-icon-column">
-            <h4>Community</h4>
-            <ul class="footer-icon-1">
-              <li><i class="fa-brands fa-discord" style="color: #eaecef;"></i></li>
-              <li><i class="fa-brands fa-telegram" style="color: #eaecef;"></i></li>
-              <li><i class="fa-brands fa-tiktok" style="color: #eaecef;"></i></li>
-              <li><i class="fa-brands fa-facebook" style="color: #eaecef;"></i></li>
-              <li><i class="fa-brands fa-x-twitter" style="color: #eaecef;"></i></li>
-              <li><i class="fa-brands fa-reddit" style="color: #eaecef;"></i></li>
-              <li><i class="fa-brands fa-weibo" style="color: #eaecef;"></i></li>
-              <li><i class="fa-brands fa-instagram" style="color: #eaecef;"></i></li>
-              <li><i class="fa-brands fa-nfc-symbol" style="color: #eaecef;"></i></li>
-              <li><i class="fa-brands fa-youtube" style="color: #eaecef;"></i></li>
-              <li>...</li>
-            </ul>
-            <div class="footer-icon-2">
-              <li><i class="fa-solid fa-globe" style="color: #eaecef;"></i> <span>English</span></li>
-              <li><i class="fa-solid fa-circle-dollar-to-slot" style="color: #eaecef;"></i><span>USD-$</span></li>
-              <li><i class="fa-solid fa-toggle-on fa-toggle-on-1 " style="color: #eaecef;"></i></li>
-            </div>
-          </div>
-          <div class="footer-row">
-            <div class="footer-column">
-              <h4>About</h4>
-              <ul class="footer-links">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Business Contacts</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Announcements</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Press</a></li>
-                <li><a href="#">Legal</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Building Trust</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Community</a></li>
-                <li><a href="#">Stiemap</a></li>
-                <li><a href="#">Risk Warging</a></li>
-                <li><a href="#">Notices</a></li>
-                <li><a href="#">Downloads</a></li>
-                <li><a href="#">Desktop Application</a></li>
-              </ul>
-            </div>
-            <div class="footer-column">
-              <h4>Products</h4>
-              <ul class="footer-links">
-                <li><a href="#">Exchange</a></li>
-                <li><a href="#">Buy Crypto</a></li>
-                <li><a href="#">Leveraged</a></li>
-                <li><a href="#">TradingView</a></li>
-                <li><a href="#">Pay</a></li>
-                <li><a href="#">Academy</a></li>
-                <li><a href="#">Live</a></li>
-                <li><a href="#">Tax</a></li>
-                <li><a href="#">Gift Card</a></li>
-                <li><a href="#">Lanchpad</a></li>
-                <li><a href="#">Auto-Invest</a></li>
-                <li><a href="#">ETH Staking</a></li>
-                <li><a href="#">Defi Staking</a></li>
-                <li><a href="#">NFT</a></li>
-                <li><a href="#">BNB</a></li>
-                <li><a href="#">BABT</a></li>
-                <li><a href="#">Research</a></li>
-                <li><a href="#">Charity</a></li>
-              </ul>
-            </div>
-            <div class="footer-column">
-              <h4>Business</h4>
-              <ul class="footer-links">
-                <li><a href="#">P2P Merchant Application</a></li>
-                <li><a href="#">P2Pro Merchant Application</a></li>
-                <li><a href="#">Listing Application</a></li>
-                <li><a href="#">Intitutional & VIP Services</a></li>
-                <li><a href="#">Labs</a></li>
-              </ul>
-              <h4 class="top-40">Learn</h4>
-              <ul class="footer-links">
-                <li><a href="#">Learn & Earn</a></li>
-                <li><a href="#">Browse Crypto Prices</a></li>
-                <li><a href="#">Bitcoin Price</a></li>
-                <li><a href="#">Ethereum Price</a></li>
-                <li><a href="#">Buy Bitcoin</a></li>
-                <li><a href="#">Buy BNB</a></li>
-                <li><a href="#">Buy Ripple</a></li>
-                <li><a href="#">Buy Dogecoin</a></li>
-                <li><a href="#">Buy Ethereum</a></li>
-                <li><a href="#">Buy Tradable Altcoins</a></li>
-              </ul>
-            </div>
-            <div class="footer-column">
-              <h4>Service</h4>
-              <ul class="footer-links">
-                <li><a href="#">Affiliate</a></li>
-                <li><a href="#">Referral</a></li>
-                <li><a href="#">OTC Trading</a></li>
-                <li><a href="#">Historical Market Data</a></li>
-                <li><a href="#">Proof of Reserve</a></li>
-              </ul>
-              <h4 class="top-40">Support</h4>
-              <ul class="footer-links">
-                <li><a href="#">24/7 Chat Support</a></li>
-                <li><a href="#">Support Center</a></li>
-                <li><a href="#">Request a Feature</a></li>
-                <li><a href="#">Fees</a></li>
-                <li><a href="#">APIs</a></li>
-                <li><a href="#">Binance Verify</a></li>
-                <li><a href="#">Trading Rules</a></li>
-                <li><a href="#">Binance Airdrop Portal</a></li>
-                <li><a href="#">Law Enforcement Requests</a></li>
-                <li><a href="#">Binance Legal(Count Orders)</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-  
-        <div class="copyright">
-          <span class="copy">Binance&copy; 2024</span>
-           <span>Cookie Preferences</span>
-        </div>
-      </footer>
-</body>
+      <div class="copyright">
+        <span class="copy">Binance&copy; 2024</span>
+        <span>Cookie Preferences</span>
+      </div>
+    </footer>
+
+    <script>
+      function sidenav() {
+        const menu = document.querySelector(".sidenav");
+        menu.classList.toggle("show");
+      }
+
+      function toggleDropdown(index) {
+        var dropdownContent =
+          document.querySelectorAll(".dropdown-content")[index];
+        var dropdownBtn = document.querySelectorAll(".dropdown-btn")[index];
+
+        dropdownBtn.classList.toggle("active");
+        dropdownContent.style.display = dropdownBtn.classList.contains("active")
+          ? "block"
+          : "none";
+      }
+    </script>
+    <script src="../../js/accordion.js"></script>
+  </body>
 </html>

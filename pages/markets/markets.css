@@ -39,6 +39,7 @@
     justify-content: space-between;
     padding: 8px;
   }
+  
   .option-container{
     max-width: 1200px;
     margin: 0 auto;
@@ -128,6 +129,9 @@
     }
   }
   @media screen and (max-width: 767px) {
+    .main-option-container{
+      margin-top: 64px;
+    }
     
     .market-header-container{
         display: none;

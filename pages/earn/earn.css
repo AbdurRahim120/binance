@@ -1,0 +1,440 @@
+.earn-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 25px;
+    /* background-color: #0b0e11; */
+  }
+  .black-bg{
+    background-color: #0b0e11;
+  }
+  
+  .earn-banner-container {
+    display: flex;
+    margin: 64px auto;
+    max-width: 1200px;
+  }
+  .earn-banner-info {
+    width: 100%;
+  }
+  .earn-banner-info-btns {
+    display: flex;
+    gap: 30px;
+  }
+  .earn-banner-info-btn {
+    display: inline-flex;
+    flex: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 20px;
+    background-color: rgb(24, 26, 32);
+    color: aliceblue;
+    border: none;
+  }
+  .earn-banner-info-btn:hover {
+    background-color: #fcd535;
+    color: black;
+    border-radius: 20px;
+  }
+  .earn-banner-info-title {
+    padding: 64px 10px;
+  }
+  .earn-banner-info-title h1 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .earn-banner-info-title h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #848e9c;
+  }
+  .earn-banner-img {
+    width: 374px;
+    margin-top: 28px;
+  }
+  .earn-middle-btns-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .earn-middle-input {
+    width: 345px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid;
+    background-color: rgb(24, 26, 32);
+    color: #848e9c;
+  }
+  .earn-middle-btns {
+    display: flex;
+    gap: 20px;
+  }
+  .earn-middle-btn {
+    padding: 12px 10px;
+    background-color: #2b3139;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    gap: 30px;
+  
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    flex: none;
+  }
+  .earn-middle-btns-checkbox {
+    font-weight: 600;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  
+  .all-products-container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 64px 0px;
+  }
+  .all-products-container h1 {
+    font-size: 28px;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #eaecef;
+  }
+  .all-products-names {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px 24px;
+  }
+  .accordion-header-title {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #0b0e11;
+    align-items: center;
+  }
+  .accordion-header-title span {
+    background-color: #0b0e11;
+  }
+  .accordion-header-title p {
+    background-color: #0b0e11;
+    text-align: right;
+    margin-left: auto;
+  }
+  .fa-angle-down-1 {
+    background-color: #0b0e11;
+  }
+  .active .accordion-header-title .fa-angle-down-1 {
+    transform: rotate(180deg);
+    display: grid;
+    justify-content: end;
+  }
+  
+  .accordion-section {
+    overflow: hidden;
+    background-color: #0b0e11;
+  }
+  
+  .accordion-header {
+    color: #eaecef;
+    background-color: #0b0e11;
+    cursor: pointer;
+    padding: 20px 24px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .panel {
+    display: none;
+    color: rgb(132, 142, 156);
+    margin: 10px 0;
+    padding: 10px 20px;
+  }
+  .panel span {
+    background-color: #0b0e11;
+  }
+  
+  .active .panel {
+    display: block;
+    overflow: hidden;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #0b0e11;
+    align-items: center;
+  }
+  #subscribe-btn {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fcd535;
+    color: #0b0e11;
+    font-weight: 600;
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+  }
+  
+  /* earning section start  */
+  
+  .crypto-earnings-container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 10px 25px;
+    display: grid;
+    gap: 24px;
+  }
+  .crypto-earnings-header {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .crypto-earnings-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 20px;
+  }
+  .crypto-earnings-info input {
+    padding: 5px;
+    border: 0.5px solid;
+    width: 200px;
+    border-radius: 5px;
+  }
+  .crypto-earnings-info-btn {
+    display: flex;
+  }
+  .crypto-earnings-info-btn button {
+    padding: 5px 10px;
+    border: none;
+    background-color: gray;
+    color: #eaecef;
+    font-weight: 700;
+  }
+  .crypto-earnings-detailes {
+    display: flex;
+    justify-content: space-between;
+  }
+  .crypto-earnings-detailes-left {
+    display: grid;
+    gap: 30px;
+  }
+  .crypto-earnings-detailes-left button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fcd535;
+    color: #0b0e11;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .crypto-earnings-detailes-left-info {
+    padding: 10px;
+    border: 1px solid seashell;
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;
+  }
+  .crypto-earnings-detailes-right {
+    margin-top: 20px;
+    width: 50%;
+  }
+  .crypto-earnings-detailes-right h2 {
+    margin: 20px 0px;
+    font-weight: 700;
+  }
+  .crypto-earnings-container p {
+    font-size: 12px;
+    color: gray;
+  }
+  .crypto-earnings-container-small{
+    display: none;
+    padding: 24px;
+    border-radius: 10px;
+    border: 1px solid;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+  }
+  .crypto-earnings-container-small-left p{
+    margin-top: 15px;
+    font-size: 12px;
+    color: gray;
+  }
+  
+  /* earning section end */
+  
+  /* earn faq start  */
+  .earn-faq-contianer{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 25px;
+  }
+  .earn-faq-contianer h1{
+    padding: 48px 20px
+  }
+  
+  .earn-faq-header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    color: #eaecef;
+    background-color: #0b0e11;
+    cursor: pointer;
+    padding: 20px 24px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .active .earn-faq-header{
+    background: rgb(24, 26, 32);
+  }
+  .earn-faq-header:hover,.earn-faq-header .plus:hover{
+    background: rgb(24, 26, 32);
+  }
+  .earn-faq-section{
+    background: rgb(24, 26, 32); 
+    border-radius: 10px;
+  }
+  .plus-minus{
+    font-size: 20px;
+    color: #eaecef;
+    position: relative;
+    right: 20px;
+  }
+  .plus{
+    position: absolute;
+    border-radius: 50%;
+  }
+  .minus{
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+  }
+  .active .plus{
+    display: none;
+  }
+  .active .minus{
+    display: block;
+  }
+  .earn-faq-panel {
+    display: none;
+    color: rgb(132, 142, 156);
+    background: rgb(24, 26, 32); 
+    margin: 10px 0;
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+  
+  .active .earn-faq-panel {
+    display: block;
+    overflow: hidden;
+  }
+  
+  /* earn faq end */
+  
+  
+  @media screen and (max-width: 1200px) {
+    .earn-banner-img {
+      display: none;
+    }
+    #subscribe-btn {
+      width: fit-content;
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    .earn-middle-btns-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    .earn-middle-btn {
+      width: 45%;
+    }
+    .all-products-container {
+      padding: 64px 24px;
+    }
+    .all-products-container h1 {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 48px;
+    }
+    .accordion-header {
+      padding: 15px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .earn-banner-info-btns {
+      overflow-x: auto;
+    }
+    ::-webkit-scrollbar {
+      height: 1px;
+    }
+    .earn-banner-info-title h1 {
+      font-size: 32px;
+    }
+    .earn-banner-info-title h3 {
+      font-size: 16px;
+    }
+    .earn-banner-info-title {
+      padding-top: 48px;
+      padding-bottom: 24px;
+    }
+    .earn-middle-btns-container {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 12px;
+      margin: 0px 15px;
+    }
+    .all-products-names,
+    .fixed,
+    .crypto-earnings-container {
+      display: none;
+    }
+    .all-products-container {
+      padding: 24px 16px;
+    }
+    .all-products-container h1 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+    .accordion-header {
+      padding: 10px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .accordion-header-title {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .all-products-names {
+      padding: 10px;
+    }
+    .panel {
+      padding: 0px 15px;
+      font-size: 12px;
+    }
+    .active .panel {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .earn-faq-contianer{
+      padding: 0px 10px;
+    }
+    .earn-faq-contianer h1{
+      font-size: 20px ;
+      padding: 24px 25px;
+  
+    }
+    .earn-faq-header {
+      padding: 15px;
+      text-align: left;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .crypto-earnings-container-small{
+      display: flex;
+    }
+  }
+  

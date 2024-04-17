@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Buy Crypto</title>
+    <title>Earn</title>
     <link rel="stylesheet" href="../../src/index.css" />
     <link rel="stylesheet" href="../../src/main.css" />
     <link rel="stylesheet" href="../../src/rsponsive.css" />
-    <link rel="stylesheet" href="./crypto.css" />
+    <link rel="stylesheet" href="./earn.css" />
     <link
       rel="shortcut icon"
       href="./images/Binance-Logo2.wine.svg"
@@ -27,12 +27,12 @@
         </a>
 
         <ul class="menu">
-          <a href="./crypto.html">
+          <a>
             <li>
-              <a>Buy Crypto</a>
+              <a href="/pages/buyCrypto/crypto.html">Buy Crypto</a>
             </li>
           </a>
-          <a >
+          <a>
             <li>
               <a href="/pages/markets/markets.html">Markets</a>
             </li>
@@ -169,9 +169,9 @@
               </div>
             </li>
           </a>
-          <a href="">
+          <a href="./earn.html">
             <li>
-              <a href="/pages/earn/earn.html">Earn</a>
+              <a href="#">Earn</a>
             </li>
           </a>
           <a href="">
@@ -406,10 +406,11 @@
             </ul>
           </div>
         </li>
-        <a >
+        <a href="#"> </a>
+        <a href="">
           <a href="/pages/login/login.html" class="hover nav-btn">Log In</a>
         </a>
-        <a>
+        <a href="">
           <a href="/pages/register/register.html" class="nav-btn register">
             <i class="fa-solid fa-gift" style="color: #000000"></i>
             Register
@@ -445,46 +446,46 @@
           placeholder="Coin, Function, Announcment "
         />
       </div>
-      <a href="#"> <i class="fa-brands fa-btc"></i>Buy Crypto </a>
+      <a href="/pages/buyCrypto/crypto.html"> <i class="fa-brands fa-btc"></i>Buy Crypto </a>
       <a href="/pages/markets/markets.html"> <i class="fa-solid fa-chart-simple"></i>Markets </a>
       <!-- <button class="dropdown-btn" onClick={() => toggleDropdown(0)}>
-              <div class="dropdown-btn-content">
-                <span>
-                  <i class="fa-solid fa-money-bill-trend-up"></i>
-                  Trade
-                </span>
-                <i class="fa-solid fa-angle-down"></i>
-              </div>
-            </button> -->
+                <div class="dropdown-btn-content">
+                  <span>
+                    <i class="fa-solid fa-money-bill-trend-up"></i>
+                    Trade
+                  </span>
+                  <i class="fa-solid fa-angle-down"></i>
+                </div>
+              </button> -->
       <div class="dropdown-content-2">
         <a href="#">a 1</a>
         <a href="#">a 2</a>
         <a href="#">a 3</a>
       </div>
       <!-- <button class="dropdown-btn" onClick={() => toggleDropdown(1)}>
-              <div class="dropdown-btn-content">
-                <span>
-                  <i class="fa-solid fa-book-atlas"></i>
-                  Futures
-                </span>
-                <i class="fa-solid fa-angle-down"></i>
-              </div>
-            </button> -->
+                <div class="dropdown-btn-content">
+                  <span>
+                    <i class="fa-solid fa-book-atlas"></i>
+                    Futures
+                  </span>
+                  <i class="fa-solid fa-angle-down"></i>
+                </div>
+              </button> -->
       <div class="dropdown-content-2">
         <a href="#">a 1</a>
         <a href="#">a 2</a>
         <a href="#">a 3</a>
       </div>
-      <a href="/pages/earn/earn.html"> <i class="fa-solid fa-earth-asia"></i>Earn </a>
+      <a href="#"> <i class="fa-solid fa-earth-asia"></i>Earn </a>
       <!-- <button class="dropdown-btn" onClick={() => toggleDropdown(2)}>
-              <div class="dropdown-btn-content">
-                <span>
-                  <i class="fa-solid fa-book-open"></i>
-                  Square
-                </span>
-                <i class="fa-solid fa-angle-down"></i>
-              </div>
-            </button> -->
+                <div class="dropdown-btn-content">
+                  <span>
+                    <i class="fa-solid fa-book-open"></i>
+                    Square
+                  </span>
+                  <i class="fa-solid fa-angle-down"></i>
+                </div>
+              </button> -->
       <div class="dropdown-content-2">
         <a href="#">a 1</a>
         <a href="#">a 2</a>
@@ -510,415 +511,552 @@
       <a href="#"> <i class="fa-solid fa-dollar-sign"></i>USD </a>
     </div>
 
-    <div class="icon-container">
-      <div class="icon-info">
-        <i class="fa-solid fa-hurricane"></i>
-        Flat Center
-      </div>
-      <div class="icon-info">
-        <i class="fa-brands fa-buy-n-large"></i>
-        Recurring Buy
-      </div>
-      <div class="icon-info">
-        <i class="fa-solid fa-clock-rotate-left"></i>
-        History
-      </div>
-      <div class="icon-info">
-        <i class="fa-solid fa-clipboard-question"></i>
-        FAQ
-      </div>
-    </div>
-    <!-- crypto banner start -->
-    <div>
-      <div class="crypto-banner-0">
-        <div class="crypto-banner-left">
-          <h1>Buy Crypto</h1>
-          <p>Various payment methods available</p>
-
-          <li><i class="fa-solid fa-user-plus color"></i>Sign Up</li>
-          <li><i class="fa-solid fa-shop color"></i>Verify Account</li>
-          <li><i class="fa-brands fa-buysellads color"></i>Buy Crypto</li>
-        </div>
-        <div class="crypto-banner-right">
-          <div class="buy-sell">
-            <h4>Buy</h4>
-            <h4>Sell</h4>
+    <main>
+      <div class="earn-banner-container">
+        <div class="earn-banner-info">
+          <div class="earn-banner-info-btns">
+            <a>
+              <button class="earn-banner-info-btn">Overview</button>
+            </a>
+            <button class="earn-banner-info-btn">Simple Earn</button>
+            <button class="earn-banner-info-btn">High Yield</button>
+            <button class="earn-banner-info-btn">Auto-Invest</button>
           </div>
-          <div class="buy-sell-card">
-            <div class="buy-sell-card-1">
-              <h4>Spend</h4>
-              <h3>
-                15.00 - 20000.00{" "}
-                <span>
-                  <i class="fa-solid fa-circle-dollar-to-slot"></i> USD
-                </span>
-              </h3>
-            </div>
-            <div class="buy-sell-card-1">
-              <h4>Spend</h4>
-              <h3>
-                15.00 - 20000.00{" "}
-                <span> <i class="fa-brands fa-btc"></i> BTC </span>
-              </h3>
-            </div>
-          </div>
-          <div class="buy-sell-btn">
-            <button>Log In/Sign Up</button>
+          <div class="earn-banner-info-title">
+            <h1>Earn</h1>
+            <h3>Simple & Secure. Search popular coins and start earning.</h3>
           </div>
         </div>
-      </div>
-    </div>
-
-    <!-- Header end here  -->
-
-    <div>
-      <hr class="crypto-br"></hr>
-      <div class="crypto-btc-usd-market">
-        <div class="btc-usd-market-left">
-          <div class="btc-usd-market-left-1">
-            <h3>
-              <span class="color-1">
-                <i class="fa-brands fa-btc"></i>
-                <i class="fa-solid fa-circle-dollar-to-slot"></i>
-              </span>
-              <span class="green-color">
-                +2.93% <sub>(10)</sub>
-              </span>
-            </h3>
-          </div>
-          <div class="btc-usd-market-left-2">
-            <h3>
-              BTC/USD <span>$ 43,572.39</span>
-            </h3>
-          </div>
-          <div>
-            <img src="/images/chart-binance.png"></img>
-          </div>
+        <div class="earn-banner-img">
+          <img src="/images/earn-illustration.svg" alt="" />
         </div>
-        <div class="btc-usd-market-right">
-          <div class="btc-market">
-            <h1>Bitcoin Markets</h1>
-            <div class="btc-market-section">
-              <div>
-                <p class="small-text">
-                  Popularity<i class="fa-solid fa-question"></i>
+      </div>
+
+      <div class="earn-middle-btns-container">
+        <input
+          type="text"
+          class="earn-middle-input"
+          placeholder="search coins"
+        />
+        <div class="earn-middle-btns">
+          <button class="earn-middle-btn">All Durations</button>
+          <button class="earn-middle-btn">All Products</button>
+        </div>
+        <div class="earn-middle-btns-checkbox">
+          <input type="checkbox" name="" id="" />
+          <span>Match My Assets</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="all-products-container">
+          <h1>All Products</h1>
+          <div class="all-products-names">
+            <span>Coins</span>
+            <span>Est. APR</span>
+            <span>Duration</span>
+            <span></span>
+          </div>
+          <div class="accordion-section">
+            <div class="accordion-header">
+              <div class="accordion-header-title">
+                <span> <i class="fa-brands fa-btc color-1"></i> BNB </span>
+                <span class="green-color">0.11%~47.19%</span>
+                <span class="fixed">Flexible/Fixed</span>
+                <p>
+                  <i class="fa-solid fa-angle-down fa-angle-down-1 color-1"></i>
                 </p>
-                <h4>#1</h4>
-              </div>
-              <div>
-                <p class="small-text">
-                  Market Cap<i class="fa-solid fa-question"></i>
-                </p>
-                <h4>$853.26B</h4>
-              </div>
-              <div>
-                <p class="small-text">
-                  Volume<i class="fa-solid fa-question"></i>
-                </p>
-                <h4>$25.96B</h4>
-              </div>
-              <div>
-                <p class="small-text">
-                  Circulation Supply<i class="fa-solid fa-question"></i>
-                </p>
-                <h4>19.58M</h4>
               </div>
             </div>
-            <p class="btc-description">
-              Bitcoin is experiencing a decline in value this week. <br></br>
-              Currently, Bitcoin is priced at $43,572.39 per BTC, with a
-              circulating supply of 19.58M BTC, resulting in a total market
-              capitalisation of $853.26B. <br></br>
-              Over thepast 24 hours, the trading volume for Bitcoin has
-              increased by $-391,046,115,220.90, representing a -15.0647% rise.
-              Moreover, BTC worth $25.96B has been traded in the last day.
-            </p>
+            <div class="panel">
+              <span>Simple Earn</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Fixed</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>BNB Vault</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Flexible</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>Dual Investment</span>
+              <span class="green-color">.35%</span>
+              <span class="fixed">Fixed</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>Liquid Swap</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Flexible</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
           </div>
-          <div class="btc-market">
-            <h1>Conversion Tables</h1>
-            <div class="btc-market-section">
-              <div>
-                <p class="small-text">7 days exchange rate</p>
-                <h4 class="green-color">+0.22%</h4>
-              </div>
-              <div>
-                <p class="small-text">24-hour exchange rate</p>
-                <h4 class="green-color">+2.93%</h4>
-              </div>
-              <div>
-                <p class="small-text">1 month exchange rate</p>
-                <h4 class="green-color">+17.50%</h4>
-              </div>
-              <div>
-                <p class="small-text">3 month exchange rate</p>
-                <h4 class="green-color">+61.75%</h4>
+          <div class="accordion-section">
+            <div class="accordion-header">
+              <div class="accordion-header-title">
+                <span> <i class="fa-brands fa-btc color-1"></i> BNB </span>
+                <span class="green-color">0.11%~47.19%</span>
+                <span class="fixed">Flexible/Fixed</span>
+                <p>
+                  <i class="fa-solid fa-angle-down fa-angle-down-1 color-1"></i>
+                </p>
               </div>
             </div>
-            <p class="btc-description">
-              Bitcoins exchange rate is experiencing a increase. <br></br>
-              <br></br>
-              Currently, the value of 1 BTC is 43,572.39 USD, indicating that
-              purchasing 5 BTC would cost 217,861.94 USD. Conversely, 1.00 USD
-              can be exchanged for 0.000023 BTC, and 50.00 USD can be exchanged
-              for 0.0011475 BTC, exclusive of platform or gas fees.
-            </p>
+            <div class="panel">
+              <span>Simple Earn</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Fixed</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>BNB Vault</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Flexible</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>Dual Investment</span>
+              <span class="green-color">.35%</span>
+              <span class="fixed">Fixed</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>Liquid Swap</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Flexible</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
           </div>
+          <div class="accordion-section">
+            <div class="accordion-header">
+              <div class="accordion-header-title">
+                <span> <i class="fa-brands fa-btc color-1"></i> BNB </span>
+                <span class="green-color">0.11%~47.19%</span>
+                <span class="fixed">Flexible/Fixed</span>
+                <p>
+                  <i class="fa-solid fa-angle-down fa-angle-down-1 color-1"></i>
+                </p>
+              </div>
+            </div>
+            <div class="panel">
+              <span>Simple Earn</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Fixed</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>BNB Vault</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Flexible</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>Dual Investment</span>
+              <span class="green-color">.35%</span>
+              <span class="fixed">Fixed</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>Liquid Swap</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Flexible</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+          </div>
+          <div class="accordion-section">
+            <div class="accordion-header">
+              <div class="accordion-header-title">
+                <span> <i class="fa-brands fa-btc color-1"></i> BNB </span>
+                <span class="green-color">0.11%~47.19%</span>
+                <span class="fixed">Flexible/Fixed</span>
+                <p>
+                  <i class="fa-solid fa-angle-down fa-angle-down-1 color-1"></i>
+                </p>
+              </div>
+            </div>
+            <div class="panel">
+              <span>Simple Earn</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Fixed</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>BNB Vault</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Flexible</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>Dual Investment</span>
+              <span class="green-color">.35%</span>
+              <span class="fixed">Fixed</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>Liquid Swap</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Flexible</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+          </div>
+          <div class="accordion-section">
+            <div class="accordion-header">
+              <div class="accordion-header-title">
+                <span> <i class="fa-brands fa-btc color-1"></i> BNB </span>
+                <span class="green-color">0.11%~47.19%</span>
+                <span class="fixed">Flexible/Fixed</span>
+                <p>
+                  <i class="fa-solid fa-angle-down fa-angle-down-1 color-1"></i>
+                </p>
+              </div>
+            </div>
+            <div class="panel">
+              <span>Simple Earn</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Fixed</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>BNB Vault</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Flexible</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>Dual Investment</span>
+              <span class="green-color">.35%</span>
+              <span class="fixed">Fixed</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>Liquid Swap</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Flexible</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+          </div>
+          <div class="accordion-section">
+            <div class="accordion-header">
+              <div class="accordion-header-title">
+                <span> <i class="fa-brands fa-btc color-1"></i> BNB </span>
+                <span class="green-color">0.11%~47.19%</span>
+                <span class="fixed">Flexible/Fixed</span>
+                <p>
+                  <i class="fa-solid fa-angle-down fa-angle-down-1 color-1"></i>
+                </p>
+              </div>
+            </div>
+            <div class="panel">
+              <span>Simple Earn</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Fixed</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>BNB Vault</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Flexible</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>Dual Investment</span>
+              <span class="green-color">.35%</span>
+              <span class="fixed">Fixed</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>Liquid Swap</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Flexible</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+          </div>
+          <div class="accordion-section">
+            <div class="accordion-header">
+              <div class="accordion-header-title">
+                <span> <i class="fa-brands fa-btc color-1"></i> BNB </span>
+                <span class="green-color">0.11%~47.19%</span>
+                <span class="fixed">Flexible/Fixed</span>
+                <p>
+                  <i class="fa-solid fa-angle-down fa-angle-down-1 color-1"></i>
+                </p>
+              </div>
+            </div>
+            <div class="panel">
+              <span>Simple Earn</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Fixed</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>BNB Vault</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Flexible</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>Dual Investment</span>
+              <span class="green-color">.35%</span>
+              <span class="fixed">Fixed</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>Liquid Swap</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Flexible</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+          </div>
+          <div class="accordion-section">
+            <div class="accordion-header">
+              <div class="accordion-header-title">
+                <span> <i class="fa-brands fa-btc color-1"></i> BNB </span>
+                <span class="green-color">0.11%~47.19%</span>
+                <span class="fixed">Flexible/Fixed</span>
+                <p>
+                  <i class="fa-solid fa-angle-down fa-angle-down-1 color-1"></i>
+                </p>
+              </div>
+            </div>
+            <div class="panel">
+              <span>Simple Earn</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Fixed</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>BNB Vault</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Flexible</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>Dual Investment</span>
+              <span class="green-color">.35%</span>
+              <span class="fixed">Fixed</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>Liquid Swap</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Flexible</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+          </div>
+          <div class="accordion-section">
+            <div class="accordion-header">
+              <div class="accordion-header-title">
+                <span> <i class="fa-brands fa-btc color-1"></i> BNB </span>
+                <span class="green-color">0.11%~47.19%</span>
+                <span class="fixed">Flexible/Fixed</span>
+                <p>
+                  <i class="fa-solid fa-angle-down fa-angle-down-1 color-1"></i>
+                </p>
+              </div>
+            </div>
+            <div class="panel">
+              <span>Simple Earn</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Fixed</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>BNB Vault</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Flexible</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>Dual Investment</span>
+              <span class="green-color">.35%</span>
+              <span class="fixed">Fixed</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+            <div class="panel">
+              <span>Liquid Swap</span>
+              <span class="green-color">1.6%~3.5%</span>
+              <span class="fixed">Flexible</span>
+              <span id="subscribe-btn">Subscribe</span>
+            </div>
+          </div>
+          <hr />
         </div>
-      </div>
-      <hr class="crypto-br"></hr>
-    </div>
+        <div class="crypto-earnings-container">
+          <div class="crypto-earnings-header">
+            Calculate your crypto earnings
+          </div>
+          <div class="crypto-earnings-info">
+            <span>I have </span>
+            <input type="text" />
+            <span> and I am insterest in </span>
+            <div class="crypto-earnings-info-btn">
+              <button>Flexible</button>
+              <button>Fixed</button>
+            </div>
+            <span>investment</span>
+          </div>
+          <div class="crypto-earnings-detailes">
+            <div class="crypto-earnings-detailes-left">
+              <h2>Products on offer</h2>
+              <div class="crypto-earnings-detailes-left-info">
+                <h4>Simple Earn</h4>
+                <h4>0.01%</h4>
+              </div>
+              <button class="crypto-earnings-detailes-left-btn">
+                Subscribe Now
+              </button>
+            </div>
+            <div class="crypto-earnings-detailes-right">
+              <h3>Estimated Earning</h3>
+              <h2 class="green-color">+ 0.42 1000SATS</h2>
+              <p>Auto-conpunding</p>
+            </div>
+          </div>
+          <p>
+            This <span class="color-1">calculation</span> is an estimate of
+            rewards you will earn in cryptocurrency over the selected timeframe.
+            It does not display the actual or predicted APR in any fiat
+            currency. APR is subject to change at any time and the estimated
+            earnings may be different from the actual earnings generated.
+          </p>
+        </div>
+        <div class="earn-faq-contianer">
+          <div class="crypto-earnings-container-small">
+            <div class="crypto-earnings-container-small-left">
+              <h4>Calculate Potential Crypto Earnings</h4>
+              <p>100+ available coins</p>
+            </div>
+            <div class="crypto-earnings-container-small-right">
+              <img src="./calc-mobile-img.svg" alt="" />
+            </div>
+          </div>
+          <h1>Frequently Asked Questions</h1>
+          <div class="accordion-section earn-faq-section">
+            <div class="earn-faq-header">
+              What is Binance Earn?
+              <div class="plus-minus">
+                <span class="plus">+</span>
+                <span class="minus">-</span>
+              </div>
+            </div>
 
-    <div>
-      <div class="btc-usd-convert">
-        <div class="btc-to-usd">
-          <h2>BTC to USD</h2>
-          <div class="btc-to-usd-option">
-            <div class="btc-to-usd-option-info">
-              <div>
-                <span>
-                  <i class="fa-brands fa-btc color-1"></i> BTC
-                </span>
-                <span>
-                  <i class="fa-solid fa-circle-dollar-to-slot color-1"></i>{" "}
-                  USD
-                </span>
-              </div>
-              <div>
-                <button class="btc-to-usd-btn">
-                  24h <span class="green-color">+0.23%</span>
-                </button>
-                <button class="btc-to-usd-btn">1 months</button>
-                <button class="btc-to-usd-btn">3 months</button>
+            <div class="earn-faq-panel">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+              quidem labore quisquam libero perspiciatis. Autem voluptates
+              commodi voluptatibus distinctio
+            </div>
+          </div>
+          <div class="accordion-section earn-faq-section">
+            <div class="earn-faq-header">
+              How does Binance Earn work?
+              <div class="plus-minus">
+                <span class="plus">+</span>
+                <span class="minus">-</span>
               </div>
             </div>
-            <hr></hr>
-            <h4 class='text-small'>
-              0.5 BTC <span> 21,625.00 USD</span>
-            </h4>
-            <hr></hr>
-            <h4 class='text-small'>
-              1 BTC <span>43,250.00 USD</span>
-            </h4>
-            <hr></hr>
-            <h4 class='text-small'>
-              5 BTC <span> 216,250.00 USD</span>
-            </h4>
-            <hr></hr>
-            <h4 class='text-small'>
-              10 BTC <span> 432,499.99 USD</span>
-            </h4>
-            <hr></hr>
-            <h4 class='text-small'>
-              50 BTC <span> 2.16M USD</span>
-            </h4>
-            <hr></hr>
-            <h4 class='text-small'>
-              100 BTC <span> 4.32M USD</span>
-            </h4>
-            <hr></hr>
-            <h4 class='text-small'>
-              500 BTC <span> 21.62M USD</span>
-            </h4>
-            <hr></hr>
-            <h4 class='text-small'>
-              1000 BTC <span> 43.25M USD</span>
-            </h4>
-          </div>
-        </div>
-        <div class="btc-to-usd">
-          <h2>USD to BTC</h2>
-          <div class="btc-to-usd-option">
-            <div class="btc-to-usd-option-info">
-              <div>
-                <span>
-                  <i class="fa-solid fa-circle-dollar-to-slot color-1"></i>{" "}
-                  USD
-                </span>
-                <span>
-                  <i class="fa-brands fa-btc color-1"></i> BTC
-                </span>
-              </div>
-              <div>
-                <button class="btc-to-usd-btn">24h</button>
-                <button class="btc-to-usd-btn">1 months</button>
-                <button class="btc-to-usd-btn">3 months</button>
-              </div>
-            </div>
-            <hr></hr>
-            <h4 class='text-small'>
-              0.5 BTC <span>0.0000116 BTC</span>
-            </h4>
-            <hr></hr>
-            <h4 class='text-small'>
-              1 BTC <span>0.0000232 BTC</span>
-            </h4>
-            <hr></hr>
-            <h4 class='text-small'>
-              5 BTC <span>0.000116 BTC</span>
-            </h4>
-            <hr></hr>
-            <h4 class='text-small'>
-              10 BTC <span>0.0002319 BTC</span>
-            </h4>
-            <hr></hr>
-            <h4 class='text-small'>
-              50 BTC <span>0.0011597 BTC</span>
-            </h4>
-            <hr></hr>
-            <h4 class='text-small'>
-              100 BTC <span>0.0023194 BTC</span>
-            </h4>
-            <hr></hr>
-            <h4 class='text-small'>
-              500 BTC <span>0.0115971 BTC</span>
-            </h4>
-            <hr></hr>
-            <h4 class='text-small'>
-              1000 BTC <span>0.0231942 BTC</span>
-            </h4>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div>
-      <div class="popular-coin-container">
-        <h1>Popular Bitcoin Conversions</h1>
-        <p class="text-small popular-coin-first-info">
-          A selection of other popular currency conversions of Bitcoin to
-          various fiat currencies.
-        </p>
-        <div class="popular-coin-cards">
-          <div class="coin-card">
-            <div class="coin-card-info">
-              <h4>BTC to USD</h4>
-              <p class="text-small">1 BTC = 42,656.27USD</p>
-            </div>
-            <div class="coin-card-icon">
-              <i class="fa-brands fa-btc color-1"></i>
-              <i class="fa-brands fa-btc color-1"></i>
+            <div class="earn-faq-panel">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+              quidem labore quisquam libero perspiciatis. Autem voluptates
+              commodi voluptatibus distinctio
             </div>
           </div>
-          <div class="coin-card">
-            <div class="coin-card-info">
-              <h4>BTC to USD</h4>
-              <p class="text-small">1 BTC = 42,656.27USD</p>
+          <div class="accordion-section earn-faq-section">
+            <div class="earn-faq-header">
+              Which cryptocurrencies are supported?
+              <div class="plus-minus">
+                <span class="plus">+</span>
+                <span class="minus">-</span>
+              </div>
             </div>
-            <div class="coin-card-icon">
-              <i class="fa-brands fa-btc color-1"></i>
-              <i class="fa-brands fa-btc color-1"></i>
-            </div>
-          </div>
-          <div class="coin-card">
-            <div class="coin-card-info">
-              <h4>BTC to USD</h4>
-              <p class="text-small">1 BTC = 42,656.27USD</p>
-            </div>
-            <div class="coin-card-icon">
-              <i class="fa-brands fa-btc color-1"></i>
-              <i class="fa-brands fa-btc color-1"></i>
+
+            <div class="earn-faq-panel">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+              quidem labore quisquam libero perspiciatis. Autem voluptates
+              commodi voluptatibus distinctio
             </div>
           </div>
-          <div class="coin-card">
-            <div class="coin-card-info">
-              <h4>BTC to USD</h4>
-              <p class="text-small">1 BTC = 42,656.27USD</p>
+          <div class="accordion-section earn-faq-section">
+            <div class="earn-faq-header">
+              Am I eligible for Binance Earn?
+              <div class="plus-minus">
+                <span class="plus">+</span>
+                <span class="minus">-</span>
+              </div>
             </div>
-            <div class="coin-card-icon">
-              <i class="fa-brands fa-btc color-1"></i>
-              <i class="fa-brands fa-btc color-1"></i>
-            </div>
-          </div>
-          <div class="coin-card">
-            <div class="coin-card-info">
-              <h4>BTC to USD</h4>
-              <p class="text-small">1 BTC = 42,656.27USD</p>
-            </div>
-            <div class="coin-card-icon">
-              <i class="fa-brands fa-btc color-1"></i>
-              <i class="fa-brands fa-btc color-1"></i>
+
+            <div class="earn-faq-panel">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+              quidem labore quisquam libero perspiciatis. Autem voluptates
+              commodi voluptatibus distinctio
             </div>
           </div>
-          <div class="coin-card">
-            <div class="coin-card-info">
-              <h4>BTC to USD</h4>
-              <p class="text-small">1 BTC = 42,656.27USD</p>
+          <div class="accordion-section earn-faq-section">
+            <div class="earn-faq-header">
+              How do I start earning?
+              <div class="plus-minus">
+                <span class="plus">+</span>
+                <span class="minus">-</span>
+              </div>
             </div>
-            <div class="coin-card-icon">
-              <i class="fa-brands fa-btc color-1"></i>
-              <i class="fa-brands fa-btc color-1"></i>
-            </div>
-          </div>
-          <div class="coin-card">
-            <div class="coin-card-info">
-              <h4>BTC to USD</h4>
-              <p class="text-small">1 BTC = 42,656.27USD</p>
-            </div>
-            <div class="coin-card-icon">
-              <i class="fa-brands fa-btc color-1"></i>
-              <i class="fa-brands fa-btc color-1"></i>
-            </div>
-          </div>
-          <div class="coin-card">
-            <div class="coin-card-info">
-              <h4>BTC to USD</h4>
-              <p class="text-small">1 BTC = 42,656.27USD</p>
-            </div>
-            <div class="coin-card-icon">
-              <i class="fa-brands fa-btc color-1"></i>
-              <i class="fa-brands fa-btc color-1"></i>
-            </div>
-          </div>
-          <div class="coin-card">
-            <div class="coin-card-info">
-              <h4>BTC to USD</h4>
-              <p class="text-small">1 BTC = 42,656.27USD</p>
-            </div>
-            <div class="coin-card-icon">
-              <i class="fa-brands fa-btc color-1"></i>
-              <i class="fa-brands fa-btc color-1"></i>
-            </div>
-          </div>
-          <div class="coin-card coin-card-extra">
-            <div class="coin-card-info">
-              <h4>BTC to USD</h4>
-              <p class="text-small">1 BTC = 42,656.27USD</p>
-            </div>
-            <div class="coin-card-icon">
-              <i class="fa-brands fa-btc color-1"></i>
-              <i class="fa-brands fa-btc color-1"></i>
+
+            <div class="earn-faq-panel">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+              quidem labore quisquam libero perspiciatis. Autem voluptates
+              commodi voluptatibus distinctio
             </div>
           </div>
         </div>
-        <p class="popular-coin-end-para">
-          This site is protected by reCAPTCHA and the Google{" "}
-          <span class="color-1">Privacy Policy </span>
-          and <span class="color-1">Terms of Service </span>apply.
-        </p>
       </div>
-    </div>
+    </main>
 
     <footer>
       <div class="footer">
         <div class="footer-icon-column">
           <h4>Community</h4>
           <ul class="footer-icon-1">
-            <li><i class="fa-brands fa-discord" style="color: #eaecef;"></i></li>
-            <li><i class="fa-brands fa-telegram" style="color: #eaecef;"></i></li>
-            <li><i class="fa-brands fa-tiktok" style="color: #eaecef;"></i></li>
-            <li><i class="fa-brands fa-facebook" style="color: #eaecef;"></i></li>
-            <li><i class="fa-brands fa-x-twitter" style="color: #eaecef;"></i></li>
-            <li><i class="fa-brands fa-reddit" style="color: #eaecef;"></i></li>
-            <li><i class="fa-brands fa-weibo" style="color: #eaecef;"></i></li>
-            <li><i class="fa-brands fa-instagram" style="color: #eaecef;"></i></li>
-            <li><i class="fa-brands fa-nfc-symbol" style="color: #eaecef;"></i></li>
-            <li><i class="fa-brands fa-youtube" style="color: #eaecef;"></i></li>
+            <li><i class="fa-brands fa-discord" style="color: #eaecef"></i></li>
+            <li>
+              <i class="fa-brands fa-telegram" style="color: #eaecef"></i>
+            </li>
+            <li><i class="fa-brands fa-tiktok" style="color: #eaecef"></i></li>
+            <li>
+              <i class="fa-brands fa-facebook" style="color: #eaecef"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-x-twitter" style="color: #eaecef"></i>
+            </li>
+            <li><i class="fa-brands fa-reddit" style="color: #eaecef"></i></li>
+            <li><i class="fa-brands fa-weibo" style="color: #eaecef"></i></li>
+            <li>
+              <i class="fa-brands fa-instagram" style="color: #eaecef"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-nfc-symbol" style="color: #eaecef"></i>
+            </li>
+            <li><i class="fa-brands fa-youtube" style="color: #eaecef"></i></li>
             <li>...</li>
           </ul>
           <div class="footer-icon-2">
-            <li><i class="fa-solid fa-globe" style="color: #eaecef;"></i> <span>English</span></li>
-            <li><i class="fa-solid fa-circle-dollar-to-slot" style="color: #eaecef;"></i><span>USD-$</span></li>
-            <li><i class="fa-solid fa-toggle-on fa-toggle-on-1 " style="color: #eaecef;"></i></li>
+            <li>
+              <i class="fa-solid fa-globe" style="color: #eaecef"></i>
+              <span>English</span>
+            </li>
+            <li>
+              <i
+                class="fa-solid fa-circle-dollar-to-slot"
+                style="color: #eaecef"
+              ></i
+              ><span>USD-$</span>
+            </li>
+            <li>
+              <i
+                class="fa-solid fa-toggle-on fa-toggle-on-1"
+                style="color: #eaecef"
+              ></i>
+            </li>
           </div>
         </div>
         <div class="footer-row">
@@ -1018,31 +1156,17 @@
 
       <div class="copyright">
         <span class="copy">Binance&copy; 2024</span>
-         <span>Cookie Preferences</span>
+        <span>Cookie Preferences</span>
       </div>
     </footer>
-
 
     <script>
       function sidenav() {
         const menu = document.querySelector(".sidenav");
-        console.log('helo');
+        console.log("helo");
         menu.classList.toggle("show");
-      }
-
-      function toggleDropdown(index) {
-        var dropdownContent =
-          document.querySelectorAll(".dropdown-content")[index];
-        var dropdownBtn = document.querySelectorAll(".dropdown-btn")[index];
-
-        dropdownBtn.classList.toggle("active");
-        dropdownContent.style.display = dropdownBtn.classList.contains("active")
-          ? "block"
-          : "none";
       }
     </script>
     <script src="../../js/accordion.js"></script>
-    
-
   </body>
 </html>

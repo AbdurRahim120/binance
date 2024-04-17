@@ -176,6 +176,7 @@
   }
   .sidenav.show {
     width: 100%;
+    /* margin-top: 64px; */
   }
   #small-bars{
     display: flex;

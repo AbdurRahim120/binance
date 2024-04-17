@@ -275,6 +275,7 @@
   }
   .crypto-banner-0 {
     display: grid;
+    margin-top: 70px;
   }
   .crypto-banner-right {
     width: 458px;
